@@ -20,7 +20,7 @@ namespace UsersPortalTests.UsersPortalTests
         [AllureSubSuite("LogIn")]
         public void LogIn()
         {
-
+            
         }
     }
 
