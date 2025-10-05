@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage
 {
-    internal class SignInAssertions
+    public partial class SignIn
     {
     }
 }

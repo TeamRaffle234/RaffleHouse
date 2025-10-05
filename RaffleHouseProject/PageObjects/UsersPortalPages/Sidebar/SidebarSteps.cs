@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage
+namespace RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar
 {
-    public partial class SignIn
+    public partial class Sidebar
     {
     }
 }

@@ -1,0 +1,61 @@
+{
+  "uuid": "bf8f4465-e734-4d09-b736-6fb0d6b9c2ca-tc-0-1000",
+  "name": "RaffleHouseProject.GuiHelpers.BasicTestsGui.TestsBaseGui.LogIn",
+  "children": [
+    "5a54e17a-635f-4f30-836e-bec66df7a39f-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "DobeforeAllTheTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759664978213,
+      "stop": 1759664978213
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759664978213,
+      "stop": 1759664978213
+    },
+    {
+      "name": "DoAfterAllTheTests",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759664978213,
+      "stop": 1759664978213
+    }
+  ],
+  "links": [],
+  "start": 1759664978206,
+  "stop": 1759664978231
+}

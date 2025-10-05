@@ -7,7 +7,7 @@ namespace RaffleHouseProject.GuiHelpers.BasicTestsGui
         [SetUp]
         public void SetUp()
         {
-            Browser._Driver.Navigate().GoToUrl(StartPoints.URL_HOME_PAGE_TENANT_MARKET_EVERGREEN);
+            Browser._Driver.Navigate().GoToUrl(StartPoints.URL_HOME_PAGE_USERS_PORTAL);
         }
     }
 

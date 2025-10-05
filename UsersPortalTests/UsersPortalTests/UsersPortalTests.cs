@@ -2,8 +2,10 @@
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
+using RaffleHouseProject.GuiHelpers;
+using RaffleHouseProject.PageObjects;
 
-namespace UsersPortalTests.UsersPortalTests
+namespace UsersPortalTests
 {
     [TestFixture]
     [AllureNUnit]
@@ -16,11 +18,16 @@ namespace UsersPortalTests.UsersPortalTests
         [AllureSeverity(SeverityLevel.critical)]
         [Retry(2)]
         [Author("Maksim", "maxqatesting390@gmail.com")]
-        [AllureSuite("MarketplaceAdmin")]
-        [AllureSubSuite("LogIn")]
-        public void LogIn()
+        [AllureSuite("Positive critical scenarios general portal")]
+        [AllureSubSuite("Sign_In_Log_Out_Success")]
+        public void Sign_In_Log_Out_Success()
         {
-            
+            PagesUsersPortals
+                .WeUseCookiesMdlWnd.ClickButtonGotIt();
+            PagesUsersPortals
+                .Header.ClickButtonHamburger();
+
+            WaitUntil.WaitSomeInterval(2000);
         }
     }
 
