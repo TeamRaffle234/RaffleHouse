@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using RaffleHouseProject.GuiHelpers;
+using RaffleHouseProject.ObjectsData.UsersPortalObjects;
 using RaffleHouseProject.PageObjects.UsersPortalPages.Header;
 using RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar;
 using RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage;
@@ -21,6 +22,12 @@ namespace RaffleHouseProject.PageObjects
 
         public static EmailHelper EmailHelper => GetPage<EmailHelper>();
         public static JScriptExecutor JScriptExecutor => GetPage<JScriptExecutor>();
+
+        #region Objects
+
+        public static UserBuyer UserBuyer => GetPage<UserBuyer>();
+
+        #endregion
 
         #region Pages
 

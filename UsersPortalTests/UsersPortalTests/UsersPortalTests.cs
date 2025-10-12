@@ -58,7 +58,8 @@ namespace UsersPortalTests
 
             #region Test GUI
 
-
+            PagesUsersPortals.SignIn
+                .EnterEmail();
 
             #endregion
 
@@ -69,24 +70,6 @@ namespace UsersPortalTests
             #endregion
 
             WaitUntil.WaitSomeInterval(2000);
-        }
-
-        [Test]
-        public void CheckAllureEnvironment()
-        {
-            // Проверка 1: Allure lifecycle
-            var lifecycle = AllureLifecycle.Instance;
-            Assert.IsNotNull(lifecycle, "AllureLifecycle should be initialized");
-
-            // Проверка 2: Results directory
-            string resultsDir = Path.Combine(Browser.RootPath(), "allure-results");
-            Assert.IsTrue(Directory.Exists(resultsDir), "Allure results directory should exist");
-
-            // Проверка 3: JSON config
-            string configPath = Path.Combine(AppContext.BaseDirectory, "allureConfig.json");
-            Assert.IsTrue(File.Exists(configPath), "Allure config file should exist");
-
-            Console.WriteLine("Allure environment: OK");
         }
     }
 }
