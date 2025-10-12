@@ -4,15 +4,21 @@ using NUnit.Allure.Core;
 using NUnit.Framework;
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.PageObjects;
+using System;
+using System.IO;
 
 namespace UsersPortalTests
 {
     [TestFixture]
     [AllureNUnit]
 
+    // Amaunt order 1 next must be 2
+    // Basic settings for autotests
+
     public class TestsBaseGui : UsersPortalBase
     {
         [Test]
+        [Order(1)]
         [AllureTag("Regression")]
         [AllureOwner("Maksim Perevalov")]
         [AllureSeverity(SeverityLevel.critical)]
@@ -63,6 +69,24 @@ namespace UsersPortalTests
             #endregion
 
             WaitUntil.WaitSomeInterval(2000);
+        }
+
+        [Test]
+        public void CheckAllureEnvironment()
+        {
+            // Проверка 1: Allure lifecycle
+            var lifecycle = AllureLifecycle.Instance;
+            Assert.IsNotNull(lifecycle, "AllureLifecycle should be initialized");
+
+            // Проверка 2: Results directory
+            string resultsDir = Path.Combine(Browser.RootPath(), "allure-results");
+            Assert.IsTrue(Directory.Exists(resultsDir), "Allure results directory should exist");
+
+            // Проверка 3: JSON config
+            string configPath = Path.Combine(AppContext.BaseDirectory, "allureConfig.json");
+            Assert.IsTrue(File.Exists(configPath), "Allure config file should exist");
+
+            Console.WriteLine("Allure environment: OK");
         }
     }
 }

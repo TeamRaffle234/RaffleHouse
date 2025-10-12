@@ -1,8 +1,8 @@
 {
-  "uuid": "9e449657-6d0b-4d48-ac17-59e5d8d9f8b9-tc-0-1000",
-  "name": "UsersPortalTests.TestsBaseGui.Sign_In_Log_Out_Success",
+  "uuid": "b30a9acf-feb5-4794-96a4-8b0a3f9be3fb-tc-0-1000",
+  "name": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
   "children": [
-    "142ad8a2-e8bd-4557-a4ef-e5c5b6dcac06-tr-0-1001"
+    "88358c03-48e0-46d6-bc14-50f473b0714b-tr-0-1001"
   ],
   "befores": [
     {
@@ -17,8 +17,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759667186307,
-      "stop": 1759667186307
+      "start": 1760276726406,
+      "stop": 1760276726406
     },
     {
       "name": "SetUp",
@@ -32,8 +32,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759667186307,
-      "stop": 1759667186307
+      "start": 1760276726406,
+      "stop": 1760276726406
     }
   ],
   "afters": [
@@ -49,8 +49,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759667186307,
-      "stop": 1759667186307
+      "start": 1760276726406,
+      "stop": 1760276726406
     },
     {
       "name": "DoAfterAllTheTests",
@@ -66,11 +66,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759667186307,
-      "stop": 1759667186307
+      "start": 1760276726406,
+      "stop": 1760276726406
     }
   ],
   "links": [],
-  "start": 1759667163819,
-  "stop": 1759667186328
+  "start": 1760276710561,
+  "stop": 1760276726423
 }

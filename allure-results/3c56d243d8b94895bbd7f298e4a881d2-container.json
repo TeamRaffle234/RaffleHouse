@@ -1,8 +1,8 @@
 {
-  "uuid": "f1431275-9c19-48da-88c0-e5c01754a803-tc-0-1000",
-  "name": "UsersPortalTests.TestsBaseGui.LogIn",
+  "uuid": "b11cd14d-a78a-459b-8492-3a7e9e4fab2b-tc-0-1000",
+  "name": "UsersPortalTests.TestsBaseGui.CheckAllureEnvironment",
   "children": [
-    "a4bc4752-016a-4077-b98c-10116bdc02cf-tr-0-1001"
+    "9398b366-b642-4e74-aa1f-d3a73aee6e28-tr-0-1002"
   ],
   "befores": [
     {
@@ -17,8 +17,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759665458809,
-      "stop": 1759665458809
+      "start": 1759758634307,
+      "stop": 1759758634307
     },
     {
       "name": "SetUp",
@@ -32,8 +32,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759665458809,
-      "stop": 1759665458809
+      "start": 1759758634308,
+      "stop": 1759758634308
     }
   ],
   "afters": [
@@ -49,8 +49,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759665458809,
-      "stop": 1759665458809
+      "start": 1759758634308,
+      "stop": 1759758634308
     },
     {
       "name": "DoAfterAllTheTests",
@@ -66,11 +66,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1759665458809,
-      "stop": 1759665458809
+      "start": 1759758634308,
+      "stop": 1759758634308
     }
   ],
   "links": [],
-  "start": 1759665411816,
-  "stop": 1759665458831
+  "start": 1759758625463,
+  "stop": 1759758634326
 }

@@ -1,7 +1,7 @@
 {
-  "uuid": "a4bc4752-016a-4077-b98c-10116bdc02cf-tr-0-1001",
-  "historyId": "UsersPortalTests.TestsBaseGui.LogIn",
-  "fullName": "UsersPortalTests.TestsBaseGui.LogIn",
+  "uuid": "9398b366-b642-4e74-aa1f-d3a73aee6e28-tr-0-1002",
+  "historyId": "UsersPortalTests.TestsBaseGui.CheckAllureEnvironment",
+  "fullName": "UsersPortalTests.TestsBaseGui.CheckAllureEnvironment",
   "labels": [
     {
       "name": "thread",
@@ -17,50 +17,26 @@
     },
     {
       "name": "testMethod",
-      "value": "LogIn"
+      "value": "CheckAllureEnvironment"
     },
     {
       "name": "testClass",
       "value": "TestsBaseGui"
-    },
-    {
-      "name": "owner",
-      "value": "Maksim <maxqatesting390@gmail.com>"
-    },
-    {
-      "name": "tag",
-      "value": "Regression"
-    },
-    {
-      "name": "owner",
-      "value": "Maksim Perevalov"
-    },
-    {
-      "name": "severity",
-      "value": "critical"
-    },
-    {
-      "name": "suite",
-      "value": "MarketplaceAdmin"
-    },
-    {
-      "name": "subSuite",
-      "value": "LogIn"
     }
   ],
   "links": [],
-  "name": "LogIn",
+  "name": "CheckAllureEnvironment",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "LogIn"
+    "message": "CheckAllureEnvironment"
   },
   "stage": "finished",
   "steps": [
     {
-      "name": "LogIn",
+      "name": "CheckAllureEnvironment",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -72,17 +48,17 @@
       "attachments": [
         {
           "name": "Console Output",
-          "source": "d236fc018e114db89b37704d0faaf3b9-attachment.txt",
+          "source": "a0d852e1738c43e085787113a07eb791-attachment.txt",
           "type": "text/plain"
         }
       ],
       "parameters": [],
-      "start": 1759665411817,
-      "stop": 1759665458811
+      "start": 1759758625464,
+      "stop": 1759758634310
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1759665411817,
-  "stop": 1759665458815
+  "start": 1759758625464,
+  "stop": 1759758634312
 }

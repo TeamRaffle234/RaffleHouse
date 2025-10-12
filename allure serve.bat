@@ -1,0 +1,1 @@
+allure serve C:\Users\Max\Source\Repos\RaffleHouse\allure-results

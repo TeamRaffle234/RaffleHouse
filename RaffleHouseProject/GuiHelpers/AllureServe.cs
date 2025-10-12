@@ -14,12 +14,10 @@ namespace RaffleHouseProject.GuiHelpers
         [AllureSuite("WebSite")]
         [AllureSubSuite("Client")]
 
-
         public void GoToAllureResults()
         {
             AllureConfigFilesHelper.CreateBatFile();
             Process.Start(Browser.RootPath() + "allure serve.bat");
         }
     }
-
 }

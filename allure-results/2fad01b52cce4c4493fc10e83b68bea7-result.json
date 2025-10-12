@@ -1,7 +1,7 @@
 {
-  "uuid": "3b5e2915-67fd-4886-895e-a0542e658a07-tr-0-1001",
-  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Log_Out_Success",
-  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Log_Out_Success",
+  "uuid": "88358c03-48e0-46d6-bc14-50f473b0714b-tr-0-1001",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
   "labels": [
     {
       "name": "thread",
@@ -17,7 +17,7 @@
     },
     {
       "name": "testMethod",
-      "value": "Sign_In_Log_Out_Success"
+      "value": "Sign_In_Without_Phone_Success"
     },
     {
       "name": "testClass",
@@ -45,22 +45,22 @@
     },
     {
       "name": "subSuite",
-      "value": "Sign_In_Log_Out_Success"
+      "value": "Sign_In_Without_Phone_Success"
     }
   ],
   "links": [],
-  "name": "Sign_In_Log_Out_Success",
+  "name": "Sign_In_Without_Phone_Success",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "Sign_In_Log_Out_Success"
+    "message": "Sign_In_Without_Phone_Success"
   },
   "stage": "finished",
   "steps": [
     {
-      "name": "Sign_In_Log_Out_Success",
+      "name": "Sign_In_Without_Phone_Success",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -81,8 +81,8 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1759668625404,
-          "stop": 1759668626058
+          "start": 1760276723033,
+          "stop": 1760276723683
         },
         {
           "name": "Click button hamburger",
@@ -96,24 +96,24 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1759668626058,
-          "stop": 1759668626688
+          "start": 1760276723683,
+          "stop": 1760276724307
         }
       ],
       "attachments": [
         {
           "name": "Console Output",
-          "source": "359568717c914b2881d4e08960f94d97-attachment.txt",
+          "source": "9c9f06ce40d94b80a1e3345e5c883d56-attachment.txt",
           "type": "text/plain"
         }
       ],
       "parameters": [],
-      "start": 1759668617903,
-      "stop": 1759668628797
+      "start": 1760276710563,
+      "stop": 1760276726408
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1759668617902,
-  "stop": 1759668628800
+  "start": 1760276710562,
+  "stop": 1760276726411
 }

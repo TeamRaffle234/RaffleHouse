@@ -1,7 +1,7 @@
 {
-  "uuid": "06181b47-ec0b-4a10-bb68-d0b9e46969a9-tr-0-1001",
-  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Log_Out_Success",
-  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Log_Out_Success",
+  "uuid": "24364923-01c7-41e4-906c-b712df1f8c74-tr-0-1001",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
   "labels": [
     {
       "name": "thread",
@@ -17,7 +17,7 @@
     },
     {
       "name": "testMethod",
-      "value": "Sign_In_Log_Out_Success"
+      "value": "Sign_In_Without_Phone_Success"
     },
     {
       "name": "testClass",
@@ -45,22 +45,22 @@
     },
     {
       "name": "subSuite",
-      "value": "Sign_In_Log_Out_Success"
+      "value": "Sign_In_Without_Phone_Success"
     }
   ],
   "links": [],
-  "name": "Sign_In_Log_Out_Success",
+  "name": "Sign_In_Without_Phone_Success",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "Sign_In_Log_Out_Success"
+    "message": "Sign_In_Without_Phone_Success"
   },
   "stage": "finished",
   "steps": [
     {
-      "name": "Sign_In_Log_Out_Success",
+      "name": "Sign_In_Without_Phone_Success",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -81,8 +81,8 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1759668576091,
-          "stop": 1759668576752
+          "start": 1759758191354,
+          "stop": 1759758192009
         },
         {
           "name": "Click button hamburger",
@@ -96,24 +96,24 @@
           "steps": [],
           "attachments": [],
           "parameters": [],
-          "start": 1759668576752,
-          "stop": 1759668577351
+          "start": 1759758192009,
+          "stop": 1759758192600
         }
       ],
       "attachments": [
         {
           "name": "Console Output",
-          "source": "129db203d5c54f868f648badabb79c85-attachment.txt",
+          "source": "78a2f26d6dc24bbfad5e5253db66a09c-attachment.txt",
           "type": "text/plain"
         }
       ],
       "parameters": [],
-      "start": 1759668567842,
-      "stop": 1759668579453
+      "start": 1759758184100,
+      "stop": 1759758194714
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1759668567841,
-  "stop": 1759668579455
+  "start": 1759758184099,
+  "stop": 1759758194718
 }
