@@ -1,4 +1,4 @@
-﻿using NUnit.Allure.Attributes;
+﻿using NUnit.Allure.Steps;
 using RaffleHouseProject.GuiHelpers;
 
 namespace RaffleHouseProject.PageObjects.UsersPortalPages.Header

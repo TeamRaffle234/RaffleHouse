@@ -32,7 +32,7 @@ namespace RaffleHouseProject.PageObjects
         #region Pages
 
         public static Header Header => GetPage<Header>();
-        public static Sidebar MarketplaceAdmin => GetPage<Sidebar>();
+        public static Sidebar Sidebar => GetPage<Sidebar>();
         public static SignIn SignIn => GetPage<SignIn>();
 
         #endregion
