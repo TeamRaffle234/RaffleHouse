@@ -95,7 +95,7 @@ namespace UsersPortalTests
             #region Test GUI
 
             PagesUsersPortals.SignIn
-                .EnterEmailUserWithoutPhoneFirst();
+                .AuthorizeVerifyUserWithoutPhone();
 
             #endregion
 

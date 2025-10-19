@@ -1,0 +1,217 @@
+{
+  "uuid": "0d9a697c-01e3-4ab7-a073-6477958405f9-tr-0-1002",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Sign_In_Without_Phone_Success"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Sign_In_Without_Phone_Success"
+    }
+  ],
+  "links": [],
+  "name": "Sign_In_Without_Phone_Success",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.']' is not a valid XPath expression.\n  (Session info: chrome=141.0.7390.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.ButtonName.IsVisible(IWebElement element, Int32 timeoutInSeconds, Int32 intervalInMilliseconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\AssertionsMethods.cs:line 278\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 52\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.VerifyTextSecondForDreamHomeBox()\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInSteps.cs:line 14\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Sign_In_Without_Phone_Success",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.']' is not a valid XPath expression.\n  (Session info: chrome=141.0.7390.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.ButtonName.IsVisible(IWebElement element, Int32 timeoutInSeconds, Int32 intervalInMilliseconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\AssertionsMethods.cs:line 278\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 52\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.VerifyTextSecondForDreamHomeBox()\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInSteps.cs:line 14\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872186538,
+          "stop": 1760872187202
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872187205,
+          "stop": 1760872187836
+        },
+        {
+          "name": "Click button login in sidebar",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872187837,
+          "stop": 1760872189424
+        },
+        {
+          "name": "Authorize verify as a user without phone",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "invalid selector: Unable to locate an element with the xpath expression //div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.']' is not a valid XPath expression.\n  (Session info: chrome=141.0.7390.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.ButtonName.IsVisible(IWebElement element, Int32 timeoutInSeconds, Int32 intervalInMilliseconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\AssertionsMethods.cs:line 278\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 52\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.VerifyTextSecondForDreamHomeBox()\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInSteps.cs:line 14\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1760872189425,
+              "stop": 1760872189447
+            },
+            {
+              "name": "Verify Title Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1760872189447,
+              "stop": 1760872189465
+            },
+            {
+              "name": "Verify Text first for Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1760872189465,
+              "stop": 1760872189496
+            },
+            {
+              "name": "Verify Text second for Dream Home in box",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "invalid selector: Unable to locate an element with the xpath expression //div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='sign-in-subtitles']/following-sibling::p/span[text() = 'Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.']' is not a valid XPath expression.\n  (Session info: chrome=141.0.7390.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+                "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.ButtonName.IsVisible(IWebElement element, Int32 timeoutInSeconds, Int32 intervalInMilliseconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\AssertionsMethods.cs:line 278\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 52\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextSecondForDreamHomeBox_100663376_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1760872189496,
+              "stop": 1760872189528
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872189424,
+          "stop": 1760872189528
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b33c3289fdd04d1097326b46fd06f9f5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760872177510,
+      "stop": 1760872191820
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760872177510,
+  "stop": 1760872191822
+}

@@ -29,5 +29,29 @@ namespace RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage
 
             return this;
         }
+
+        [AllureStep("Verify Title Dream Home in box")]
+        public SignIn VerifyTitleDreamHome()
+        {
+            Assert.IsTrue(Text.IsVisible(TitleDreamHome));
+
+            return this;
+        }
+
+        [AllureStep("Verify Text first for Dream Home in box")]
+        public SignIn VerifyTextFirstForDreamHomeBox()
+        {
+            Assert.IsTrue(Text.IsVisible(TextFirstForDreamHomeBox));
+
+            return this;
+        }
+
+        [AllureStep("Verify Text second for Dream Home in box")]
+        public SignIn VerifyTextSecondForDreamHomeBox()
+        {
+            Assert.IsTrue(Text.IsVisible(TextSecondForDreamHomeBox));
+
+            return this;
+        }
     }
 }

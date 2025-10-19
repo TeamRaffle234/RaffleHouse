@@ -1,0 +1,202 @@
+{
+  "uuid": "140435ef-a290-4ef6-96da-df72aea924eb-tr-0-1002",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Sign_In_Without_Phone_Success"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Sign_In_Without_Phone_Success"
+    }
+  ],
+  "links": [],
+  "name": "Sign_In_Without_Phone_Success",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 44\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.VerifyTextFirstForDreamHomeBox()\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInSteps.cs:line 13\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Sign_In_Without_Phone_Success",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 44\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.VerifyTextFirstForDreamHomeBox()\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInSteps.cs:line 13\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872479214,
+          "stop": 1760872479868
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872479870,
+          "stop": 1760872480468
+        },
+        {
+          "name": "Click button login in sidebar",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872480468,
+          "stop": 1760872481927
+        },
+        {
+          "name": "Authorize verify as a user without phone",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "  Expected: True\r\n  But was:  False\r\n",
+            "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 44\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.VerifyTextFirstForDreamHomeBox()\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInSteps.cs:line 13\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663377_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1760872481928,
+              "stop": 1760872481954
+            },
+            {
+              "name": "Verify Title Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1760872481954,
+              "stop": 1760872481974
+            },
+            {
+              "name": "Verify Text first for Dream Home in box",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "  Expected: True\r\n  But was:  False\r\n",
+                "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\SigInPage\\SignInAssertions.cs:line 44\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage.SignIn.__a$_around_VerifyTextFirstForDreamHomeBox_100663375_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1760872481974,
+              "stop": 1760872492093
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1760872481928,
+          "stop": 1760872492094
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "98ff6a93451b4984845abe11562b0cf7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760872469181,
+      "stop": 1760872494331
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760872469181,
+  "stop": 1760872494334
+}
