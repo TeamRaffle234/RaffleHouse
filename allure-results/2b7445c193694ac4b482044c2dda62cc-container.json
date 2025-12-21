@@ -1,0 +1,76 @@
+{
+  "uuid": "4a8fbca7-dea5-4782-8200-09586360eb02-tc-0-1000",
+  "name": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "children": [
+    "d9dfe32c-a49e-4769-b7ba-050901b59410-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "DobeforeAllTheTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1766318363970,
+      "stop": 1766318363970
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1766318363970,
+      "stop": 1766318363970
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1766318363970,
+      "stop": 1766318363970
+    },
+    {
+      "name": "DoAfterAllTheTests",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1766318363970,
+      "stop": 1766318363970
+    }
+  ],
+  "links": [],
+  "start": 1766318343762,
+  "stop": 1766318363992
+}

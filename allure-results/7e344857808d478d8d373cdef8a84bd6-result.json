@@ -1,0 +1,307 @@
+{
+  "uuid": "ccdad9e3-db06-4ea0-9faa-9ae0dbaddaed-tr-0-1002",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Sign_In_Without_Phone_Success"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Sign_In_Without_Phone_Success"
+    }
+  ],
+  "links": [],
+  "name": "Sign_In_Without_Phone_Success",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //input[@placeholder = 'Password']] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@placeholder = 'Password']]' is not a valid XPath expression.\n  (Session info: chrome=143.0.7499.148); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.<>c__DisplayClass5_0.<CustomElementIsVisible>b__0(IWebDriver e) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 74\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 23\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.EnterPasswordMinimumLength()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInSteps.cs:line 21\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Sign_In_Without_Phone_Success",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //input[@placeholder = 'Password']] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@placeholder = 'Password']]' is not a valid XPath expression.\n  (Session info: chrome=143.0.7499.148); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.<>c__DisplayClass5_0.<CustomElementIsVisible>b__0(IWebDriver e) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 74\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 23\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.EnterPasswordMinimumLength()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInSteps.cs:line 21\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766320027748,
+          "stop": 1766320028599
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766320028600,
+          "stop": 1766320029499
+        },
+        {
+          "name": "Click button login in sidebar",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766320029499,
+          "stop": 1766320031792
+        },
+        {
+          "name": "Authorize verify as a user without phone",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "invalid selector: Unable to locate an element with the xpath expression //input[@placeholder = 'Password']] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@placeholder = 'Password']]' is not a valid XPath expression.\n  (Session info: chrome=143.0.7499.148); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.<>c__DisplayClass5_0.<CustomElementIsVisible>b__0(IWebDriver e) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 74\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 23\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.EnterPasswordMinimumLength()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInSteps.cs:line 21\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663379_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031793,
+              "stop": 1766320031816
+            },
+            {
+              "name": "Verify Text Dont have an account?",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031816,
+              "stop": 1766320031835
+            },
+            {
+              "name": "Verify Button name sign up here",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031836,
+              "stop": 1766320031854
+            },
+            {
+              "name": "Verify Button name Google Sign in",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031854,
+              "stop": 1766320031890
+            },
+            {
+              "name": "Verify Button name Apple Sign in",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031890,
+              "stop": 1766320031910
+            },
+            {
+              "name": "Verify Title Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031910,
+              "stop": 1766320031929
+            },
+            {
+              "name": "Verify Text first for Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031929,
+              "stop": 1766320031949
+            },
+            {
+              "name": "Verify Text second for Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031949,
+              "stop": 1766320031970
+            },
+            {
+              "name": "Enter email user without phone",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320031970,
+              "stop": 1766320032465
+            },
+            {
+              "name": "Enter password minimum length",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "invalid selector: Unable to locate an element with the xpath expression //input[@placeholder = 'Password']] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@placeholder = 'Password']]' is not a valid XPath expression.\n  (Session info: chrome=143.0.7499.148); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+                "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Enabled()\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.<>c__DisplayClass5_0.<CustomElementIsVisible>b__0(IWebDriver e) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 74\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 23\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_EnterPasswordMinimumLength_100663370_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766320032568,
+              "stop": 1766320032597
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766320031793,
+          "stop": 1766320032597
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f7132a271eb54e1a88b034b1bbd6c3ad-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1766320021344,
+      "stop": 1766320034845
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1766320021344,
+  "stop": 1766320034848
+}

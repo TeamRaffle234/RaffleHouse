@@ -1,0 +1,240 @@
+{
+  "uuid": "6f6f761b-77a9-4561-a7b6-d2a6982f41b2-tr-0-1002",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Sign_In_Without_Phone_Success"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Sign_In_Without_Phone_Success"
+    }
+  ],
+  "links": [],
+  "name": "Sign_In_Without_Phone_Success",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Sign_In_Without_Phone_Success"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Sign_In_Without_Phone_Success",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766318586415,
+          "stop": 1766318587171
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766318587173,
+          "stop": 1766318587887
+        },
+        {
+          "name": "Click button login in sidebar",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766318587887,
+          "stop": 1766318589690
+        },
+        {
+          "name": "Authorize verify as a user without phone",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766318589691,
+              "stop": 1766318589715
+            },
+            {
+              "name": "Verify Text Dont have an account?",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766318589715,
+              "stop": 1766318589734
+            },
+            {
+              "name": "Verify Button name sign up here",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766318589735,
+              "stop": 1766318589752
+            },
+            {
+              "name": "Verify Title Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766318589753,
+              "stop": 1766318589786
+            },
+            {
+              "name": "Verify Text first for Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766318589787,
+              "stop": 1766318589806
+            },
+            {
+              "name": "Verify Text second for Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766318589806,
+              "stop": 1766318589825
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766318589691,
+          "stop": 1766318589825
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "004905ecc8e648f583f031a455c238f4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1766318578099,
+      "stop": 1766318591929
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1766318578099,
+  "stop": 1766318591932
+}

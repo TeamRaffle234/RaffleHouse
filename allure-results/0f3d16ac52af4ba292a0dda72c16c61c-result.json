@@ -1,0 +1,322 @@
+{
+  "uuid": "47edf9ae-1654-42fd-9033-80bb47ebeeb4-tr-0-1002",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Sign_In_Without_Phone_Success"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Sign_In_Without_Phone_Success"
+    }
+  ],
+  "links": [],
+  "name": "Sign_In_Without_Phone_Success",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 32\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.ClickIconEyeForFieldInputPassword()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInSteps.cs:line 21\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Sign_In_Without_Phone_Success",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 32\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.ClickIconEyeForFieldInputPassword()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInSteps.cs:line 21\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.AuthorizeVerifyUserWithoutPhone()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 97"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766321539911,
+          "stop": 1766321540911
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766321540913,
+          "stop": 1766321541791
+        },
+        {
+          "name": "Click button login in sidebar",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766321541792,
+          "stop": 1766321543931
+        },
+        {
+          "name": "Authorize verify as a user without phone",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 10 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 32\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.ClickIconEyeForFieldInputPassword()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInSteps.cs:line 21\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_AuthorizeVerifyUserWithoutPhone_100663380_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321543932,
+              "stop": 1766321543955
+            },
+            {
+              "name": "Verify Text Dont have an account?",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321543955,
+              "stop": 1766321543973
+            },
+            {
+              "name": "Verify Button name sign up here",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321543973,
+              "stop": 1766321543991
+            },
+            {
+              "name": "Verify Button name Google Sign in",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321543991,
+              "stop": 1766321544008
+            },
+            {
+              "name": "Verify Button name Apple Sign in",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321544008,
+              "stop": 1766321544024
+            },
+            {
+              "name": "Verify Title Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321544024,
+              "stop": 1766321544054
+            },
+            {
+              "name": "Verify Text first for Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321544055,
+              "stop": 1766321544076
+            },
+            {
+              "name": "Verify Text second for Dream Home in box",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321544076,
+              "stop": 1766321544094
+            },
+            {
+              "name": "Enter email user without phone",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321544095,
+              "stop": 1766321544594
+            },
+            {
+              "name": "Enter password minimum length",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321544595,
+              "stop": 1766321544940
+            },
+            {
+              "name": "Enter password minimum length",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Timed out after 10 seconds",
+                "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\SigInPage\\SignInActions.cs:line 32\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.SigInPage.SignIn.__a$_around_ClickIconEyeForFieldInputPassword_100663371_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1766321544940,
+              "stop": 1766321555510
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766321543932,
+          "stop": 1766321555510
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "77447e4618e241b9bb2f7b6ed7f4ca90-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1766321533478,
+      "stop": 1766321557764
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1766321533477,
+  "stop": 1766321557768
+}

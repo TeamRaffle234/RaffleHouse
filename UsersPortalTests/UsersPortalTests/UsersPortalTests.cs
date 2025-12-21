@@ -88,7 +88,7 @@ namespace UsersPortalTests
             PagesUsersPortals
                 .Header.ClickButtonHamburger();
             PagesUsersPortals
-                .Sidebar.ClickButtonLogIn();
+                .BurgerMenu.ClickButtonLogIn();
 
             #endregion
 

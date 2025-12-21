@@ -1,0 +1,139 @@
+{
+  "uuid": "a756c7c4-cf38-488c-a303-616cf3370c45-tr-0-1002",
+  "historyId": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "fullName": "UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Sign_In_Without_Phone_Success"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Sign_In_Without_Phone_Success"
+    }
+  ],
+  "links": [],
+  "name": "Sign_In_Without_Phone_Success",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\Sidebar\\SidebarActions.cs:line 11\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.ClickButtonLogIn()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 90"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Sign_In_Without_Phone_Success",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\Sidebar\\SidebarActions.cs:line 11\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.ClickButtonLogIn()\r\n   at UsersPortalTests.TestsBaseGui.Sign_In_Without_Phone_Success() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 90"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766317798018,
+          "stop": 1766317798769
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766317798770,
+          "stop": 1766317799462
+        },
+        {
+          "name": "Click button login in sidebar",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 10 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.CustomElementIsVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 70\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\UsersPortalPages\\Sidebar\\SidebarActions.cs:line 11\r\n   at RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar.Sidebar.__a$_around_ClickButtonLogIn_100663379_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1766317799462,
+          "stop": 1766317809596
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1be9ab079745432a8c0a668a05b88557-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1766317789283,
+      "stop": 1766317811973
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1766317789283,
+  "stop": 1766317811977
+}

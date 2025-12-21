@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaffleHouseProject", "RaffleHouseProject\RaffleHouseProject.csproj", "{3B13BDB9-B628-49F3-A19F-0809D7145A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersPortalTests", "UsersPortalTests\UsersPortalTests.csproj", "{8B1D92A1-62DB-4DA9-BDFA-5DF059F38162}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainPortalTests", "UsersPortalTests\MainPortalTests.csproj", "{8B1D92A1-62DB-4DA9-BDFA-5DF059F38162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
