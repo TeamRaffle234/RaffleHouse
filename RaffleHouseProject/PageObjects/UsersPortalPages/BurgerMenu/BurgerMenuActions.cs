@@ -1,12 +1,12 @@
 ﻿using NUnit.Allure.Steps;
 using RaffleHouseProject.GuiHelpers;
 
-namespace RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar
+namespace RaffleHouseProject.PageObjects.UsersPortalPages.BurgerMenu
 {
-    public partial class Sidebar
+    public partial class BurgerMenu
     {
         [AllureStep("Click button login in sidebar")]
-        public Sidebar ClickButtonLogIn()
+        public BurgerMenu ClickButtonLogIn()
         {
             WaitUntil.CustomElementIsVisible(ButtonLogIn);
             Button.Click(ButtonLogIn);

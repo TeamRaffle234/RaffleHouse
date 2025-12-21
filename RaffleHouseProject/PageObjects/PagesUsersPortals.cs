@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.ObjectsData.UsersPortalObjects;
+using RaffleHouseProject.PageObjects.UsersPortalPages.BurgerMenu;
 using RaffleHouseProject.PageObjects.UsersPortalPages.Header;
 using RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar;
 using RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage;
@@ -32,7 +33,7 @@ namespace RaffleHouseProject.PageObjects
         #region Pages
 
         public static Header Header => GetPage<Header>();
-        public static Sidebar Sidebar => GetPage<Sidebar>();
+        public static BurgerMenu BurgerMenu => GetPage<BurgerMenu>();
         public static SignIn SignIn => GetPage<SignIn>();
 
         #endregion

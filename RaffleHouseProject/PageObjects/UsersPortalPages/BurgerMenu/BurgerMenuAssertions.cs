@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar
+namespace RaffleHouseProject.PageObjects.UsersPortalPages.BurgerMenu
 {
-    public partial class Sidebar
+    public partial class BurgerMenu
     {
     }
 }
