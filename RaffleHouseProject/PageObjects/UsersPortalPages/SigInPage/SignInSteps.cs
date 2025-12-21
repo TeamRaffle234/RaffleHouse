@@ -11,7 +11,7 @@ namespace RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage
             VerifyTitleSignIn();
             VerifyTextDontHaveAnAccount();
             VerifyButtonNameSignUpHere();
-            //Verify Google button
+            //Verify Google button//
             //Verify Apple button
             VerifyTitleDreamHome();
             VerifyTextFirstForDreamHomeBox();
