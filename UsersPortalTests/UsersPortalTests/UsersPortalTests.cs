@@ -4,15 +4,13 @@ using NUnit.Allure.Core;
 using NUnit.Framework;
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.PageObjects;
-using System;
-using System.IO;
 
 namespace UsersPortalTests
 {
     [TestFixture]
     [AllureNUnit]
 
-    // Amaunt order 2 next must be 3
+    // Amount order 3 next must be 4
     // Basic settings for autotests
 
     public class TestsBaseGui : UsersPortalBase
@@ -29,6 +27,7 @@ namespace UsersPortalTests
         public void Demo()
         {
             //Flow: Sign in via sidebar > Verify > full user name, user email > Verify full user name on sidebar , user email on My details page
+            
             #region Test data
 
 
@@ -96,6 +95,40 @@ namespace UsersPortalTests
 
             PagesUsersPortals.SignIn
                 .AuthorizeVerifyUserWithoutPhone();
+
+            #endregion
+
+            #region Postconditions
+
+
+
+            #endregion
+
+            WaitUntil.WaitSomeInterval(100);
+        }
+
+        [Test]
+        [Order(1)]
+        [AllureTag("Regression")]
+        [AllureOwner("Maksim Perevalov")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [Retry(2)]
+        [Author("Maksim", "maxqatesting390@gmail.com")]
+        [AllureSuite("Positive critical scenarios general portal")]
+        [AllureSubSuite("VerifyBurgerMenuIfUserUnauthorized")]
+        public void VerifyBurgerMenuIfUserUnauthorized()
+        {
+            //Flow: User unauthorized > Jump by all the items on the burger menu
+
+            #region Preconditions GUI
+
+
+
+            #endregion
+
+            #region Test GUI
+
+
 
             #endregion
 
