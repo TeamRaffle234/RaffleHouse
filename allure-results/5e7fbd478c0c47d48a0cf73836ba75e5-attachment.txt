@@ -1,0 +1,5 @@
+Проверка ButtonIconCloseFormCross начата в 18:31:54
+✓ Элемент найден в DOM
+Enabled: True
+Displayed: False
+✅ Проверка ButtonIconCloseFormCross завершена успешно в 18:31:54

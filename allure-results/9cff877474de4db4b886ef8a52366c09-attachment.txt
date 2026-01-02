@@ -1,0 +1,3 @@
+✓ Элемент найден в DOM
+Enabled: True
+✅ Проверка ButtonIconCloseFormCross завершена успешно

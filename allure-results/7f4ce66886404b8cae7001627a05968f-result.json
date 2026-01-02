@@ -1,0 +1,109 @@
+{
+  "uuid": "b763ff27-32fc-4155-ab9c-55e58ff5d99d-tr-0-1003",
+  "historyId": "UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized",
+  "fullName": "UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyBurgerMenuIfUserUnauthorized"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "VerifyBurgerMenuIfUserUnauthorized"
+    }
+  ],
+  "links": [],
+  "name": "VerifyBurgerMenuIfUserUnauthorized",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <img decoding=\"async\" loading=\"lazy\" src=\"/extensions/images/redesign-v2/burger.svg\" alt=\"burger menu\"> is not clickable at point (32, 65). Other element would receive the click: <div class=\"cookie-wrapper-new\">...</div>\n  (Session info: chrome=143.0.7499.170)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 29\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\Header\\HeaderActions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.ClickButtonHamburger()\r\n   at UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 125"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyBurgerMenuIfUserUnauthorized",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <img decoding=\"async\" loading=\"lazy\" src=\"/extensions/images/redesign-v2/burger.svg\" alt=\"burger menu\"> is not clickable at point (32, 65). Other element would receive the click: <div class=\"cookie-wrapper-new\">...</div>\n  (Session info: chrome=143.0.7499.170)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 29\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\Header\\HeaderActions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.ClickButtonHamburger()\r\n   at UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 125"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button hamburger",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "element click intercepted: Element <img decoding=\"async\" loading=\"lazy\" src=\"/extensions/images/redesign-v2/burger.svg\" alt=\"burger menu\"> is not clickable at point (32, 65). Other element would receive the click: <div class=\"cookie-wrapper-new\">...</div>\n  (Session info: chrome=143.0.7499.170)",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 29\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\Header\\HeaderActions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.Header.__a$_around_ClickButtonHamburger_100663383_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767369664044,
+          "stop": 1767369665834
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0d981374b6a845ad86623e6a05eb4058-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1767369656243,
+      "stop": 1767369668378
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1767369656242,
+  "stop": 1767369668381
+}

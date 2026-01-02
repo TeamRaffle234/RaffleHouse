@@ -1,0 +1,157 @@
+{
+  "uuid": "4d6a3b98-6375-4668-bb2b-052b6d3a6b1b-tr-0-1003",
+  "historyId": "UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized",
+  "fullName": "UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "UsersPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyBurgerMenuIfUserUnauthorized"
+    },
+    {
+      "name": "testClass",
+      "value": "TestsBaseGui"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Verify_Burger_Menu_If_User_Unauthorized"
+    }
+  ],
+  "links": [],
+  "name": "VerifyBurgerMenuIfUserUnauthorized",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuAssertions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.VerifyButtonIconCloseFormCross()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 10\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.VerifyElementsInHeader()\r\n   at UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 134\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyBurgerMenuIfUserUnauthorized",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuAssertions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.VerifyButtonIconCloseFormCross()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 10\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.VerifyElementsInHeader()\r\n   at UsersPortalTests.TestsBaseGui.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\UsersPortalTests\\UsersPortalTests\\UsersPortalTests.cs:line 134\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767371262773,
+          "stop": 1767371263518
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767371263518,
+          "stop": 1767371264197
+        },
+        {
+          "name": "Verify elements in header",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "  Expected: True\r\n  But was:  False\r\n",
+            "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuAssertions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_w_0(Object[] )\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.VerifyButtonIconCloseFormCross()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 10\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyElementsInHeader_100663387_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Verify Button icon close form cross",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "  Expected: True\r\n  But was:  False\r\n",
+                "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuAssertions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenu.__a$_around_VerifyButtonIconCloseFormCross_100663386_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767371264197,
+              "stop": 1767371264247
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767371264197,
+          "stop": 1767371264247
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ce9cf8725be34b2fb53ca8c5edcd01c1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1767371256915,
+      "stop": 1767371266880
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1767371256915,
+  "stop": 1767371266880
+}

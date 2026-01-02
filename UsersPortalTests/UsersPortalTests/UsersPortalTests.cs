@@ -64,7 +64,7 @@ namespace UsersPortalTests
 
             #endregion
 
-            WaitUntil.WaitSomeInterval(2000);
+            WaitUntil.WaitSomeInterval(100);
         }
 
         [Test]
@@ -82,12 +82,12 @@ namespace UsersPortalTests
 
             #region Preconditions GUI
 
-            PagesUsersPortals
-                .WeUseCookiesMdlWnd.ClickButtonGotIt();
-            PagesUsersPortals
-                .Header.ClickButtonHamburger();
-            PagesUsersPortals
-                .BurgerMenu.ClickButtonLogIn();
+            PagesUsersPortals.WeUseCookiesMdlWnd
+                .ClickButtonGotIt();
+            PagesUsersPortals.Header
+                .ClickButtonHamburger();
+            PagesUsersPortals.BurgerMenu
+                .ClickButtonLogIn();
 
             #endregion
 
@@ -108,37 +108,35 @@ namespace UsersPortalTests
         }
 
         [Test]
-        [Order(1)]
+        [Order(3)]
         [AllureTag("Regression")]
         [AllureOwner("Maksim Perevalov")]
         [AllureSeverity(SeverityLevel.critical)]
         [Retry(2)]
         [Author("Maksim", "maxqatesting390@gmail.com")]
         [AllureSuite("Positive critical scenarios general portal")]
-        [AllureSubSuite("VerifyBurgerMenuIfUserUnauthorized")]
+        [AllureSubSuite("Verify_Burger_Menu_If_User_Unauthorized")]
         public void VerifyBurgerMenuIfUserUnauthorized()
         {
-            //Flow: User unauthorized > Jump by all the items on the burger menu
+            //Flow: User unauthorized > Verify header > Jump by all the items on the burger menu > Verify footer
 
             #region Preconditions GUI
 
-
+            PagesUsersPortals.WeUseCookiesMdlWnd
+                .ClickButtonGotIt();
+            PagesUsersPortals.Header
+                .ClickButtonHamburger();
 
             #endregion
 
             #region Test GUI
 
-
-
-            #endregion
-
-            #region Postconditions
-
-
+            PagesUsersPortals.BurgerMenu
+                .VerifyElementsInHeader();
 
             #endregion
 
-            WaitUntil.WaitSomeInterval(2000);
+            WaitUntil.WaitSomeInterval(100);
         }
     }
 }

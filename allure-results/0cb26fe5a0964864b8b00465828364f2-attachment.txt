@@ -1,0 +1,6 @@
+✓ Элемент найден в DOM
+Enabled: True
+✅ Проверка Button Icon Close Form Cross завершена успешно
+✓ Элемент найден в DOM
+Enabled: True
+✅ Проверка Button Logo Raffle House завершена успешно
