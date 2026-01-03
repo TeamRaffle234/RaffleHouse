@@ -132,11 +132,12 @@ namespace UsersPortalTests
             #region Test GUI
 
             PagesUsersPortals.BurgerMenu
-                .VerifyElementsInHeader();
+                .VerifyElementsInHeader()
+                .TransitionsFromBurgerMenuToPages();
 
             #endregion
 
-            WaitUntil.WaitSomeInterval(100);
+            WaitUntil.WaitSomeInterval(2000);
         }
     }
 }

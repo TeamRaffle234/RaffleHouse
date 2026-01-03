@@ -8,7 +8,6 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.Header
         [AllureStep("Click button hamburger")]
         public Header ClickButtonHamburger()
         {
-            WaitUntil.CustomElementIsVisible(ButtonHamburger);
             Button.Click(ButtonHamburger);
 
             return this;

@@ -18,7 +18,44 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 
         #endregion
 
+        #region Items - Button
+
         [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar__wrapper active']//div[@class = 'sidebar__user-block']//button[text() = 'Login']")]
         public IWebElement ButtonLogIn;
+
+        [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar__wrapper active']//div[@class = 'sidebar__user-block']//button[text() = 'Sign up']")]
+        public IWebElement ButtonSignUp;
+
+        [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar__wrapper active']//nav[@class = 'sidebar__menu']//a[text() = 'Buy a ticket']")]
+        public IWebElement ButtonBuyATicket;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonEarlyBird;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonOurCharityPartners;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonOurWinners;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonRaffleHouseSubscriptions;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonSeniorStudentKeyWorkerDiscounts;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonRaffleHouseRewards;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonReferAFriendGiveTwentyFreeTickets;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonAboutUs;
+
+        [FindsBy(How = How.XPath, Using = "")]
+        public IWebElement ButtonContactUs;
+
+        #endregion
     }
 }

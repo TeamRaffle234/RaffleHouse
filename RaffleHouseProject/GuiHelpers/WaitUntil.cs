@@ -14,11 +14,6 @@ namespace RaffleHouseProject.GuiHelpers
             new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(60)).Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(location));
         }
 
-        public static void ElementIsClickable(IWebElement element, int seconds = 10)
-        {
-            new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds)).Until(ExpectedConditions.ElementToBeClickable(element));
-        }
-
         public static void CustomElementIsClickable(IWebElement element, int seconds = 10)
         {
             WebDriverWait wait = new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds));
@@ -32,23 +27,20 @@ namespace RaffleHouseProject.GuiHelpers
                 {
                     if (ExpectedConditions.ElementToBeClickable(element).Invoke(Browser._Driver) != null)
                     {
-                        return; // элемент кликабельный
+                        return; 
                     }
                 }
                 catch (NoSuchElementException)
                 {
-                    // Обработка исключения или прокидывание дальше
+                    
                 }
                 catch (StaleElementReferenceException)
                 {
-                    // Обработка исключения или прокидывание дальше
+                    
                 }
 
-                Thread.Sleep(100); // подождать 100 миллисекунд перед следующей проверкой
+                Thread.Sleep(100); 
             }
-
-            // Если элемент так и не стал кликабельным в течение указанного времени
-            // Обработка или выброс исключения
         }
 
         public static void WaitSomeInterval(int milliSeconds)
@@ -56,40 +48,57 @@ namespace RaffleHouseProject.GuiHelpers
             Task.Delay(TimeSpan.FromMilliseconds(milliSeconds)).Wait();
         }
 
-        public static void ElementIsVesible(By element, int seconds = 10)
+        public static void WaitForElementToBeClickableAndVisible(IWebElement element, int seconds = 10)
         {
-            new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds)).Until(ExpectedConditions.ElementIsVisible(element));
-        }
+            if (Browser._Driver == null)
+                throw new InvalidOperationException("WebDriver is not initialized");
 
-        public static void CustomElementIsVisible(IWebElement element, int seconds = 10)
-        {
-            WebDriverWait wait = new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds));
+            if (element == null)
+                throw new ArgumentNullException(nameof(element), "Element cannot be null");
+
+            var wait = new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds));
             wait.PollingInterval = TimeSpan.FromMilliseconds(100);
+            wait.IgnoreExceptionTypes(typeof(NoSuchElementException), typeof(StaleElementReferenceException));
+
             try
             {
-                wait.Until(e =>
+                bool isVisible = wait.Until(driver =>
                 {
                     try
                     {
-                        if (element.Enabled == true)
-                        {
-                            return true;
-                        }
-                        return false;
-                    }
-                    catch (NoSuchElementException)
-                    {
-                        return false;
+                        return element.Displayed;
                     }
                     catch (StaleElementReferenceException)
                     {
                         return false;
                     }
-
                 });
+
+                if (isVisible)
+                {
+                    bool isEnabled = wait.Until(driver => element.Enabled);
+
+                    if (isEnabled && element.GetAttribute("disabled") == null)
+                    {
+                        Console.WriteLine($"[SUCCESS] Элемент найден и кликабелен");
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"[WARNING] Элемент появился, но он некликабелен. Enabled={element.Enabled}, Disabled attr={element.GetAttribute("disabled")}");
+                        throw new ElementNotInteractableException("Element is not clickable");
+                    }
+                }
             }
-            catch (NoSuchElementException) { }
-            catch (StaleElementReferenceException) { }
+            catch (WebDriverTimeoutException)
+            {
+                Console.WriteLine($"[ERROR] Элемент не появился в течение {seconds} секунд");
+                throw;
+            }
+            catch (ElementNotInteractableException)
+            {
+                throw;
+            }
         }
 
         public static void SuccessCustomElementIsVisible(IWebElement element, int seconds = 10)
@@ -129,31 +138,44 @@ namespace RaffleHouseProject.GuiHelpers
         {
             WebDriverWait wait = new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds));
             wait.PollingInterval = TimeSpan.FromMilliseconds(100);
+
             try
             {
                 wait.Until(e =>
                 {
                     try
                     {
-                        if (element.Enabled == false)
+                        if (!element.Displayed)
                         {
+                            Console.WriteLine("[SUCCESS] Element is not displayed (invisible)");
                             return true;
                         }
                         return false;
                     }
                     catch (NoSuchElementException)
                     {
+                        Console.WriteLine("[SUCCESS] Element is not displayed (invisible)");
                         return true;
                     }
                     catch (StaleElementReferenceException)
                     {
+                        Console.WriteLine("[SUCCESS] Element is not displayed (invisible)");
                         return true;
                     }
-
                 });
             }
-            catch (NoSuchElementException) { }
-            catch (StaleElementReferenceException) { }
+            catch (NoSuchElementException)
+            {
+                Console.WriteLine("[SUCCESS] Element is not displayed (invisible)");
+            }
+            catch (StaleElementReferenceException)
+            {
+                Console.WriteLine("[SUCCESS] Element is not displayed (invisible)");
+            }
+            catch (WebDriverTimeoutException)
+            {
+                // Без сообщения об ошибке, как запрошено
+            }
         }
 
         public static void WaitForElementToDisappear(IWebElement element, int seconds = 10)
@@ -184,5 +206,4 @@ namespace RaffleHouseProject.GuiHelpers
             catch (Exception) { throw new ArgumentException(wait.Message); }
         }
     }
-
 }

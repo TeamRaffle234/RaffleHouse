@@ -8,7 +8,7 @@ namespace RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds
         [AllureStep("Click button Got it")]
         public WeUseCookiesMdlWnd ClickButtonGotIt()
         {
-            WaitUntil.CustomElementIsVisible(ButtonGotIt);
+            //WaitUntil.WaitForElementToBeClickableAndVisible(ButtonGotIt);
             Button.Click(ButtonGotIt);
 
             return this;

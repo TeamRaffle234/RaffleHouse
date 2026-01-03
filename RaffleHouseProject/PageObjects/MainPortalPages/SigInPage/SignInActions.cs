@@ -11,7 +11,6 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         [AllureStep("Enter email user without phone")]
         public SignIn EnterEmailUserWithoutPhoneFirst()
         {
-            WaitUntil.CustomElementIsVisible(FieldInputEmail);
             InputGeneral.InputFunctionWithClear(FieldInputEmail, userBuyer.UserAlreadyCreatedWihtoutPhone.Email);
 
             return this;
@@ -20,7 +19,6 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         [AllureStep("Enter password minimum length")]
         public SignIn EnterPasswordMinimumLength()
         {
-            WaitUntil.CustomElementIsVisible(FieldInputPassword);
             InputGeneral.InputFunctionWithClear(FieldInputPassword, userBuyer.UserAlreadyCreatedWihtoutPhone.PasswordMinimumLength);
 
             return this;

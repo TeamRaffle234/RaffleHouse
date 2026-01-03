@@ -1,0 +1,13 @@
+[SUCCESS] Элемент найден и кликабелен
+[SUCCESS] Элемент найден и кликабелен
+✓ Элемент найден в DOM
+Enabled: True
+✅ Проверка Button Icon Close Form Cross завершена успешно
+✓ Элемент найден в DOM
+Enabled: True
+✅ Проверка Button Logo Raffle House завершена успешно
+✓ Элемент найден в DOM
+Enabled: True
+✅ Проверка button icon Cart завершена успешно
+[SUCCESS] Элемент найден и кликабелен
+[SUCCESS] Элемент найден и кликабелен

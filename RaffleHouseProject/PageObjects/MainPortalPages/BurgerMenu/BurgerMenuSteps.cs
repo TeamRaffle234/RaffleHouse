@@ -13,5 +13,19 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 
             return this;
         }
+
+        [AllureStep("Transitions from burger menu to pages")]
+        public BurgerMenu TransitionsFromBurgerMenuToPages()
+        {
+            ClickButtonIconCart();
+            PagesUsersPortals.Header
+                .ClickButtonHamburger();
+            ClickButtonIconCloseFormCross();
+            PagesUsersPortals.Header
+                .ClickButtonHamburger();
+            ClickButtonLogoRaffleHouse();
+
+            return this;
+        }
     }
 }
