@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RaffleHouseProject.GuiHelpers;
+using RaffleHouseProject.ObjectsData.MainPortalObjects;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
 {
-    internal class HomeActions
+    public partial class Home
     {
+        HomePageIfOnlyBasicDreamHomeRaffle homePageIfOnlyBasicDreamHomeRaffle = HomePageIfOnlyBasicDreamHomeRaffle.Generate();
+
+        public string GetTitleValueFromHeroVideoActualResult()
+        {
+            WaitUntil.StaticElementIsVisible(TitleFromHeroVideoActualResult);
+            return TitleFromHeroVideoActualResult.GetAttribute("value");
+        }
     }
 }

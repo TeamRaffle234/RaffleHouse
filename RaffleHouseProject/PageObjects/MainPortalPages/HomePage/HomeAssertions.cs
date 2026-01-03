@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NUnit.Allure.Attributes;
+using NUnit.Framework;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
 {
-    internal class HomeAssertions
+    public partial class Home
     {
+        [AllureStep("Verify title on hero video")]
+        public Home VerifyTitleOnHeroVideo()
+        {
+            string getTitleValueFromHeroVideoActualResult = GetTitleValueFromHeroVideoActualResult();
+            Assert.AreEqual(getTitleValueFromHeroVideoActualResult, TitleFromHeroVideoExpectedResult());
+
+            return this;
+        }
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
+namespace RaffleHouseProject.ObjectsData.MainPortalObjects
 {
-    public partial class Home
+    internal class HomePageIfBasicWithTwoFourOneDreamHomeRaffles
     {
     }
 }

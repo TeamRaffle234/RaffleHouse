@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="UpdatingNewRafflesObjects\" />
     <Folder Include="PageObjects\CmsAdminPortalPages\" />
   </ItemGroup>
 

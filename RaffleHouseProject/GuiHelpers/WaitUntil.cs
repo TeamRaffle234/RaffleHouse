@@ -134,7 +134,51 @@ namespace RaffleHouseProject.GuiHelpers
             catch (StaleElementReferenceException) { }
         }
 
-        public static void CustomElementIsInVisible(IWebElement element, int seconds = 10)
+        public static void StaticElementIsVisible(IWebElement element, int seconds = 10)
+        {
+            var wait = new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds));
+            wait.PollingInterval = TimeSpan.FromMilliseconds(100);
+
+            bool isVisible = false;
+
+            try
+            {
+                isVisible = wait.Until(_ =>
+                {
+                    try
+                    {
+                        if (element.Displayed)
+                        {
+                            return true;
+                        }
+                        return false;
+                    }
+                    catch (NoSuchElementException)
+                    {
+                        return false;
+                    }
+                    catch (StaleElementReferenceException)
+                    {
+                        return false;
+                    }
+                });
+            }
+            catch (WebDriverTimeoutException)
+            {
+                isVisible = false;
+            }
+
+            if (isVisible)
+            {
+                Console.WriteLine("[SUCCESS] Успешно Элемент видимый");
+            }
+            else
+            {
+                Console.WriteLine("[ERROR] Ошибка Элемент не отобразился");
+            }
+        }
+
+        public static void StaticElementIsInVisible(IWebElement element, int seconds = 10)
         {
             WebDriverWait wait = new WebDriverWait(Browser._Driver, TimeSpan.FromSeconds(seconds));
             wait.PollingInterval = TimeSpan.FromMilliseconds(100);
