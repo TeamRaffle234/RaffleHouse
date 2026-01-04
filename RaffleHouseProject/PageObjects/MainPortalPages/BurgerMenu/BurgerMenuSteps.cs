@@ -24,6 +24,8 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
             PagesUsersPortals.Header
                 .ClickButtonHamburger();
             ClickButtonLogoRaffleHouse();
+            PagesUsersPortals.Home
+                .VerifyTitleOnHeroVideo();
 
             return this;
         }

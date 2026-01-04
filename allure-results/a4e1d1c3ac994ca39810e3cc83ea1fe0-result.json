@@ -1,0 +1,124 @@
+{
+  "uuid": "bb47b14c-63d7-43ae-9ae3-d765e69e1ee6-tr-0-1003",
+  "historyId": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "fullName": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "MainSiteTests.MainPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyBurgerMenuIfUserUnauthorized"
+    },
+    {
+      "name": "testClass",
+      "value": "LaunchMainSiteTests"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Verify_Burger_Menu_If_User_Unauthorized"
+    }
+  ],
+  "links": [],
+  "name": "VerifyBurgerMenuIfUserUnauthorized",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: null\r\n  But was:  <Element (id = f.F9BD07F02B6A4BBFC771421429A92BF2.d.52064EE5716EA2D91BC5D9133650CA5D.e.184)>\r\n",
+    "trace": "   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\HomePage\\HomeAssertions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.VerifyTitleOnHeroVideo()\r\n   at MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalTests\\LaunchMainSiteTests.cs:line 127\r\n   at InvokeStub_LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized(Object, Object, IntPtr*)\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyBurgerMenuIfUserUnauthorized",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: null\r\n  But was:  <Element (id = f.F9BD07F02B6A4BBFC771421429A92BF2.d.52064EE5716EA2D91BC5D9133650CA5D.e.184)>\r\n",
+        "trace": "   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\HomePage\\HomeAssertions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.VerifyTitleOnHeroVideo()\r\n   at MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalTests\\LaunchMainSiteTests.cs:line 127\r\n   at InvokeStub_LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized(Object, Object, IntPtr*)\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767548655926,
+          "stop": 1767548656613
+        },
+        {
+          "name": "Verify title on hero video",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "  Expected: null\r\n  But was:  <Element (id = f.F9BD07F02B6A4BBFC771421429A92BF2.d.52064EE5716EA2D91BC5D9133650CA5D.e.184)>\r\n",
+            "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\HomePage\\HomeAssertions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.HomePage.Home.__a$_around_VerifyTitleOnHeroVideo_100663393_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767548656613,
+          "stop": 1767548656691
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d7c2491f1ede46bfb29d62690e4457b5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1767548654999,
+      "stop": 1767548659269
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1767548654999,
+  "stop": 1767548659269
+}

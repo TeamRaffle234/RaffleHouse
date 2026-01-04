@@ -124,6 +124,7 @@ namespace MainSiteTests.MainPortalTests
 
             PagesUsersPortals.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
+            
             PagesUsersPortals.Home
                 .VerifyTitleOnHeroVideo();
             PagesUsersPortals.Header

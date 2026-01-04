@@ -1,0 +1,301 @@
+{
+  "uuid": "cf26e7f3-b5aa-404f-901e-b1d3c8ac162e-tr-0-1003",
+  "historyId": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "fullName": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "MainSiteTests.MainPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyBurgerMenuIfUserUnauthorized"
+    },
+    {
+      "name": "testClass",
+      "value": "LaunchMainSiteTests"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Verify_Burger_Menu_If_User_Unauthorized"
+    }
+  ],
+  "links": [],
+  "name": "VerifyBurgerMenuIfUserUnauthorized",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VerifyBurgerMenuIfUserUnauthorized"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyBurgerMenuIfUserUnauthorized",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767549729079,
+          "stop": 1767549729868
+        },
+        {
+          "name": "Verify title on hero video",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767549729869,
+          "stop": 1767549730027
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767549730028,
+          "stop": 1767549730851
+        },
+        {
+          "name": "Verify elements in header",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Verify button icon close form cross",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549730852,
+              "stop": 1767549731029
+            },
+            {
+              "name": "Verify button logo Raffle House",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549731029,
+              "stop": 1767549731066
+            },
+            {
+              "name": "Verify button icon Cart",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549731067,
+              "stop": 1767549731099
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767549730852,
+          "stop": 1767549731099
+        },
+        {
+          "name": "Transitions from burger menu to pages",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Click button icon Cart in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549731100,
+              "stop": 1767549731821
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549731822,
+              "stop": 1767549732416
+            },
+            {
+              "name": "Click button icon close form cross in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549732416,
+              "stop": 1767549732996
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549732996,
+              "stop": 1767549733593
+            },
+            {
+              "name": "Click button logo Raffle House",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549733594,
+              "stop": 1767549734392
+            },
+            {
+              "name": "Verify title on hero video",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767549734392,
+              "stop": 1767549734914
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767549731100,
+          "stop": 1767549734914
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fbfbf015c065428b90accfeb5ccda9c1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1767549724290,
+      "stop": 1767549737044
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1767549724290,
+  "stop": 1767549737046
+}

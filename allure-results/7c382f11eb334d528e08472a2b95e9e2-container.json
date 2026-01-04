@@ -1,0 +1,80 @@
+{
+  "uuid": "258d9398-7f23-4462-9950-9440d7b61ad1-tc-0-1000",
+  "name": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "children": [
+    "51da6e4e-a22b-4c00-acf2-78a17a3b1204-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "DobeforeAllTheTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767548112869,
+      "stop": 1767548112869
+    },
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id\r\nTearDown : OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at MainSiteTests.MainPortalBase.MainSiteBase.SetUp() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalBase\\LaunchMainPortalBase.cs:line 19\r\n   at InvokeStub_MainSiteBase.SetUp(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at RaffleHouseProject.GuiHelpers.ScreenShot.MakeScreenShot() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MakeScreenShot.cs:line 12\r\n   at RaffleHouseProject.GuiHelpers.BasicTestsGui.BaseGui.DoAfterEach() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\BasicTestsGui\\BaseGui.cs:line 27\r\n   at InvokeStub_BaseGui.DoAfterEach(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767548112869,
+      "stop": 1767548112869
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id\r\nTearDown : OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at MainSiteTests.MainPortalBase.MainSiteBase.SetUp() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalBase\\LaunchMainPortalBase.cs:line 19\r\n   at InvokeStub_MainSiteBase.SetUp(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at RaffleHouseProject.GuiHelpers.ScreenShot.MakeScreenShot() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MakeScreenShot.cs:line 12\r\n   at RaffleHouseProject.GuiHelpers.BasicTestsGui.BaseGui.DoAfterEach() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\BasicTestsGui\\BaseGui.cs:line 27\r\n   at InvokeStub_BaseGui.DoAfterEach(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767548112870,
+      "stop": 1767548112870
+    },
+    {
+      "name": "DoAfterAllTheTests",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767548112870,
+      "stop": 1767548112870
+    }
+  ],
+  "links": [],
+  "start": 1767548112808,
+  "stop": 1767548112872
+}

@@ -9,7 +9,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
         public Home VerifyTitleOnHeroVideo()
         {
             string getTitleValueFromHeroVideoActualResult = GetTitleValueFromHeroVideoActualResult();
-            Assert.AreEqual(getTitleValueFromHeroVideoActualResult, TitleFromHeroVideoExpectedResult());
+            Assert.AreEqual(getTitleValueFromHeroVideoActualResult, homePageIfOnlyBasicDreamHomeRaffle.SectionHeroVideo.Title);
 
             return this;
         }

@@ -10,7 +10,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
         public string GetTitleValueFromHeroVideoActualResult()
         {
             WaitUntil.StaticElementIsVisible(TitleFromHeroVideoActualResult);
-            return TitleFromHeroVideoActualResult.GetAttribute("value");
+            return TitleFromHeroVideoActualResult.Text;
         }
     }
 }
