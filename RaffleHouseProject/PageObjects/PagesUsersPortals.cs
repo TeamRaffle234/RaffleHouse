@@ -3,15 +3,8 @@ using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.ObjectsData.MainPortalObjects;
 using RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu;
 using RaffleHouseProject.PageObjects.MainPortalPages.Header;
+using RaffleHouseProject.PageObjects.MainPortalPages.HomePage;
 using RaffleHouseProject.PageObjects.MainPortalPages.SigInPage;
-
-
-
-//using RaffleHouseProject.ObjectsData.UsersPortalObjects;
-//using RaffleHouseProject.PageObjects.UsersPortalPages.BurgerMenu;
-//using RaffleHouseProject.PageObjects.UsersPortalPages.Header;
-//using RaffleHouseProject.PageObjects.UsersPortalPages.Sidebar;
-//using RaffleHouseProject.PageObjects.UsersPortalPages.SigInPage;
 using RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds;
 using SeleniumExtras.PageObjects;
 
@@ -42,6 +35,7 @@ namespace RaffleHouseProject.PageObjects
         public static Header Header => GetPage<Header>();
         public static BurgerMenu BurgerMenu => GetPage<BurgerMenu>();
         public static SignIn SignIn => GetPage<SignIn>();
+        public static Home Home => GetPage<Home>();
 
         #endregion
 

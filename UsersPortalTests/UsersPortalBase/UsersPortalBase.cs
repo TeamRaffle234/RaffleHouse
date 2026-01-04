@@ -2,7 +2,7 @@
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.GuiHelpers.BasicTestsGui;
 
-namespace UsersPortalTests
+namespace MainPortalTests.UsersPortalTests
 {
     public class UsersPortalBase : BaseGui
     {

@@ -5,7 +5,7 @@ using NUnit.Framework;
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.PageObjects;
 
-namespace UsersPortalTests
+namespace MainPortalTests.UsersPortalTests
 {
     [TestFixture]
     [AllureNUnit]
@@ -124,6 +124,8 @@ namespace UsersPortalTests
 
             PagesUsersPortals.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
+            PagesUsersPortals.Home
+                .VerifyTitleOnHeroVideo();
             PagesUsersPortals.Header
                 .ClickButtonHamburger();
 
