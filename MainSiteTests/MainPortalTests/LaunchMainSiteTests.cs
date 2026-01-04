@@ -3,13 +3,9 @@ using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.PageObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MainSiteTests.MainPortalBase;
 
-namespace MainSiteTests.MainSiteTests
+namespace MainSiteTests.MainPortalTests
 {
     [TestFixture]
     [AllureNUnit]
@@ -17,7 +13,7 @@ namespace MainSiteTests.MainSiteTests
     // Amount order 3 next must be 4
     // Basic settings for autotests
 
-    public class MainSiteTests : MainSiteBase
+    public class LaunchMainSiteTests : MainSiteBase
     {
         [Test]
         [Order(1)]
