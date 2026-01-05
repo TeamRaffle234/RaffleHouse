@@ -312,7 +312,7 @@ namespace RaffleHouseProject.GuiHelpers
                 {
                     if (element != null && element.Enabled)
                     {
-                        Console.WriteLine($"Subtitle: {element.Text}");
+                        Console.WriteLine($"Text: {element.Text}");
                         return true;
                     }
                 }

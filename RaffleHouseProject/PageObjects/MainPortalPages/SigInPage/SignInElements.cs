@@ -40,5 +40,11 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
 
         [FindsBy(How = How.XPath, Using = "//button[@class = 'sign-in-button']")]
         public IWebElement ButtonSignInViaEmail;
+
+        [FindsBy(How = How.XPath, Using = "//div[@class = 'agreeRemebmer']//span[text() = 'Remember me']")]
+        public IWebElement CheckBoxContainerRememberMe;
+
+        [FindsBy(How = How.XPath, Using = "//div[@class = 'agreeRemebmer']//span[text() = 'Forgot password?']")]
+        public IWebElement ButtonForgotPassword;
     }
 }

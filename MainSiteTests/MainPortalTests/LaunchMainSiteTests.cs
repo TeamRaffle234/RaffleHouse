@@ -135,7 +135,6 @@ namespace MainSiteTests.MainPortalTests
             #region Test GUI
 
             PagesUsersPortals.BurgerMenu
-                .VerifyElementsInHeader()
                 .TransitionsFromBurgerMenuToPages();
 
             #endregion

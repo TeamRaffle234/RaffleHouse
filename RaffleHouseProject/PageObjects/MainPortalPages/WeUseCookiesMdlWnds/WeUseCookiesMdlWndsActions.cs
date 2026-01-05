@@ -1,5 +1,6 @@
 ﻿using NUnit.Allure.Attributes;
 using RaffleHouseProject.GuiHelpers;
+using System;
 
 namespace RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds
 {
@@ -8,8 +9,8 @@ namespace RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds
         [AllureStep("Click button Got it")]
         public WeUseCookiesMdlWnd ClickButtonGotIt()
         {
-            //WaitUntil.WaitForElementToBeClickableAndVisible(ButtonGotIt);
             Button.Click(ButtonGotIt);
+            Console.WriteLine($"Got it button");
 
             return this;
         }

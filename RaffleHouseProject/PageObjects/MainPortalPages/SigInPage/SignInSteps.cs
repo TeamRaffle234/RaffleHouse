@@ -18,6 +18,8 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
             EnterEmailUserWithoutPhoneFirst();
             EnterPasswordMinimumLength();
             //ClickIconEyeForFieldInputPassword();
+            CheckBoxRememberMe();
+            VerifyButtonForgotPassword();
             ClickButtonSignInViaEmail();
 
             return this;

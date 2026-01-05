@@ -1,5 +1,6 @@
 ﻿using NUnit.Allure.Steps;
 using RaffleHouseProject.GuiHelpers;
+using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 {
@@ -11,6 +12,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         public BurgerMenu ClickButtonIconCart()
         {
             Button.Click(ButtonIconCart);
+            Console.WriteLine($"Cart icon button in burger menu");
 
             return this;
         }
@@ -19,6 +21,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         public BurgerMenu ClickButtonIconCloseFormCross()
         {
             Button.Click(ButtonIconCloseFormCross);
+            Console.WriteLine($"Cross icon button in burger menu");
 
             return this;
         }
@@ -27,6 +30,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         public BurgerMenu ClickButtonLogoRaffleHouse()
         {
             Button.Click(ButtonLogoRaffleHouse);
+            Console.WriteLine($"Logo Raffle House icon button in burger menu");
 
             return this;
         }
@@ -37,6 +41,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         public BurgerMenu ClickButtonLogIn()
         {
             Button.Click(ButtonLogIn);
+            Console.WriteLine($"Login button in burger menu");
 
             return this;
         }
@@ -45,14 +50,16 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         public BurgerMenu ClickButtonSignUp()
         {
             Button.Click(ButtonSignUp);
+            Console.WriteLine($"Sign up button in burger menu");
 
             return this;
         }
 
-        [AllureStep("Click button Sign up in burger menu")]
+        [AllureStep("Click button Buy a ticket in burger menu")]
         public BurgerMenu ClickButtonSignUpButtonBuyATicket()
         {
             Button.Click(ButtonBuyATicket);
+            Console.WriteLine($"Buy a ticket button in burger menu");
 
             return this;
         }

@@ -1,5 +1,6 @@
 ﻿using NUnit.Allure.Steps;
 using RaffleHouseProject.GuiHelpers;
+using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.Header
 {
@@ -9,6 +10,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.Header
         public Header ClickButtonHamburger()
         {
             Button.Click(ButtonHamburger);
+            Console.WriteLine($"Humburger button");
 
             return this;
         }

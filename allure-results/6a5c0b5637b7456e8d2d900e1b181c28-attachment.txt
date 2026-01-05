@@ -1,0 +1,28 @@
+[SUCCESS] Элемент найден и кликабелен
+Got it button
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Login button in burger menu
+[SUCCESS] Успешно Элемент видимый
+Title name: Sign in
+[SUCCESS] Успешно Элемент видимый
+Subtitle: Don’t have an account?
+[SUCCESS] Элемент найден и кликабелен
+Button name: SIGN UP HERE
+[SUCCESS] Элемент найден и кликабелен
+Button name: Sign In
+[SUCCESS] Элемент найден и кликабелен
+Button name: Sign In
+[SUCCESS] Успешно Элемент видимый
+Subtitle: Dream Home
+[SUCCESS] Успешно Элемент видимый
+Subtitle: This is your chance to win your own home, Stamp Duty and legal fees paid while donating to worthy causes. We'll even chuck in your bills and utility costs for a year.Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.
+[SUCCESS] Успешно Элемент видимый
+Subtitle: Be mortgage-free for life; live in it, rent it, or sell it — it'll be yours, no strings attached.
+[SUCCESS] Элемент найден и кликабелен
+[SUCCESS] Элемент найден и кликабелен
+[SUCCESS] Элемент найден и кликабелен
+[SUCCESS] Элемент найден и кликабелен
+[SUCCESS] Элемент найден и кликабелен
+[SUCCESS] Элемент найден и кликабелен
