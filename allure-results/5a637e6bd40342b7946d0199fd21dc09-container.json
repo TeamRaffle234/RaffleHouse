@@ -1,0 +1,78 @@
+{
+  "uuid": "8a457b8f-52f8-4456-a25f-0e14e1f89094-tc-0-1000",
+  "name": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.Sign_In_Without_Phone_Success",
+  "children": [
+    "63e281e3-2acf-4324-b184-d3eed5305fc9-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "DobeforeAllTheTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767610285204,
+      "stop": 1767610285204
+    },
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: JavaScript code failed\nfrom unknown command: 'Runtime.evaluate' wasn't found\n  (Session info: chrome=143.0.7499.170)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Window.Maximize()\r\n   at RaffleHouseProject.GuiHelpers.Browser.Initialize() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\Browser.cs:line 35\r\n   at MainSiteTests.MainPortalBase.MainSiteBase.SetUp() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalBase\\LaunchMainPortalBase.cs:line 13\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767610285205,
+      "stop": 1767610285205
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767610285205,
+      "stop": 1767610285205
+    },
+    {
+      "name": "DoAfterAllTheTests",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767610285205,
+      "stop": 1767610285205
+    }
+  ],
+  "links": [],
+  "start": 1767610280836,
+  "stop": 1767610285222
+}

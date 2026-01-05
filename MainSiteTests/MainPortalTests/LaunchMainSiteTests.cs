@@ -61,10 +61,8 @@ namespace MainSiteTests.MainPortalTests
             #region Postconditions
 
 
-
-            #endregion
-
             WaitUntil.WaitSomeInterval(100);
+            #endregion
         }
 
         [Test]
@@ -78,7 +76,7 @@ namespace MainSiteTests.MainPortalTests
         [AllureSubSuite("Sign_In_Without_Phone_Success")]
         public void Sign_In_Without_Phone_Success()
         {
-            //Flow: Sign in via sidebar > Verify > full user name, user email > Verify full user name on sidebar , user email on My details page
+            //Flow: Sign in via sidebar > Verify > full user name, user email > Verify full user name on sidebar, user email on My details page
 
             #region Preconditions GUI
 
@@ -96,15 +94,8 @@ namespace MainSiteTests.MainPortalTests
             PagesUsersPortals.SignIn
                 .AuthorizeVerifyUserWithoutPhone();
 
-            #endregion
-
-            #region Postconditions
-
-
-
-            #endregion
-
             WaitUntil.WaitSomeInterval(100);
+            #endregion
         }
 
         [Test]
@@ -124,7 +115,6 @@ namespace MainSiteTests.MainPortalTests
 
             PagesUsersPortals.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
-            
             PagesUsersPortals.Home
                 .VerifyTitleOnHeroVideo();
             PagesUsersPortals.Header
@@ -137,9 +127,8 @@ namespace MainSiteTests.MainPortalTests
             PagesUsersPortals.BurgerMenu
                 .TransitionsFromBurgerMenuToPages();
 
-            #endregion
-
             WaitUntil.WaitSomeInterval(2000);
+            #endregion
         }
 
     }
