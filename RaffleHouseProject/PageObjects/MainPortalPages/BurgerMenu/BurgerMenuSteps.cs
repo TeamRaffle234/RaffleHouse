@@ -8,14 +8,28 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         public BurgerMenu TransitionsFromBurgerMenuToPages()
         {
             ClickButtonIconCart();
-            PagesUsersPortals.Header
+            PagesMainSite.Payment
+                .VerifyTitleThereAreNoItemsInYourBasket();
+            PagesMainSite.Header
                 .ClickButtonHamburger();
             ClickButtonIconCloseFormCross();
-            PagesUsersPortals.Header
+            PagesMainSite.Header
                 .ClickButtonHamburger();
             ClickButtonLogoRaffleHouse();
-            PagesUsersPortals.Home
+            PagesMainSite.Home
                 .VerifyTitleOnHeroVideo();
+            PagesMainSite.Header
+                .ClickButtonHamburger();
+            ClickButtonLogIn();
+            PagesMainSite.SignIn
+                .VerifyTitleSignIn();
+            PagesMainSite.Header
+                .ClickButtonHamburger();
+            ClickButtonSignUp();
+            PagesMainSite.SignUpForAnAccount
+                .VerifyTitleSignUpForAnAccount();
+            PagesMainSite.Header
+                .ClickButtonHamburger();
 
             return this;
         }

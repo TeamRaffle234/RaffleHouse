@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage
+namespace RaffleHouseProject.PageObjects.MainPortalPages.SignUpForAnAccountPage
 {
-    public partial class Payment
+    public partial class SignUpForAnAccount
     {
     }
 }

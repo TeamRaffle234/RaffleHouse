@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage
 {
-    internal class PaymentSteps
+    public partial class Payment
     {
     }
 }

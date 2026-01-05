@@ -1,6 +1,4 @@
 ﻿using OpenQA.Selenium;
-using RaffleHouseProject.GuiHelpers;
-using RaffleHouseProject.ObjectsData.MainPortalObjects;
 using SeleniumExtras.PageObjects;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage

@@ -80,18 +80,18 @@ namespace MainSiteTests.MainPortalTests
 
             #region Preconditions GUI
 
-            PagesUsersPortals.WeUseCookiesMdlWnd
+            PagesMainSite.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
-            PagesUsersPortals.Header
+            PagesMainSite.Header
                 .ClickButtonHamburger();
-            PagesUsersPortals.BurgerMenu
+            PagesMainSite.BurgerMenu
                 .ClickButtonLogIn();
 
             #endregion
 
             #region Test GUI
 
-            PagesUsersPortals.SignIn
+            PagesMainSite.SignIn
                 .AuthorizeVerifyUserWithoutPhone();
 
             WaitUntil.WaitSomeInterval(100);
@@ -113,18 +113,18 @@ namespace MainSiteTests.MainPortalTests
 
             #region Preconditions GUI
 
-            PagesUsersPortals.WeUseCookiesMdlWnd
+            PagesMainSite.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
-            PagesUsersPortals.Home
+            PagesMainSite.Home
                 .VerifyTitleOnHeroVideo();
-            PagesUsersPortals.Header
+            PagesMainSite.Header
                 .ClickButtonHamburger();
 
             #endregion
 
             #region Test GUI
 
-            PagesUsersPortals.BurgerMenu
+            PagesMainSite.BurgerMenu
                 .TransitionsFromBurgerMenuToPages();
 
             WaitUntil.WaitSomeInterval(2000);

@@ -4,13 +4,15 @@ using RaffleHouseProject.ObjectsData.MainPortalObjects;
 using RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu;
 using RaffleHouseProject.PageObjects.MainPortalPages.Header;
 using RaffleHouseProject.PageObjects.MainPortalPages.HomePage;
+using RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.SigInPage;
+using RaffleHouseProject.PageObjects.MainPortalPages.SignUpForAnAccountPage;
 using RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds;
 using SeleniumExtras.PageObjects;
 
 namespace RaffleHouseProject.PageObjects
 {
-    public class PagesUsersPortals
+    public class PagesMainSite
     {
         private static T GetPage<T>() where T : new()
         {
@@ -35,7 +37,9 @@ namespace RaffleHouseProject.PageObjects
         public static Header Header => GetPage<Header>();
         public static BurgerMenu BurgerMenu => GetPage<BurgerMenu>();
         public static SignIn SignIn => GetPage<SignIn>();
+        public static SignUpForAnAccount SignUpForAnAccount => GetPage<SignUpForAnAccount>();
         public static Home Home => GetPage<Home>();
+        public static Payment Payment => GetPage<Payment>();
 
         #endregion
 
