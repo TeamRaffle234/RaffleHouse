@@ -2,37 +2,40 @@
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 {
-    public partial class BurgerMenu
+    public partial class BurgerMenuMainSite
     {
         [AllureStep("Transitions from burger menu to pages")]
-        public BurgerMenu TransitionsFromBurgerMenuToPages()
+        public BurgerMenuMainSite TransitionsFromBurgerMenuToPages()
         {
             ClickButtonIconCart();
-            PagesMainSite.Payment
+            PagesMainSite.PaymentPg
                 .VerifyTitleThereAreNoItemsInYourBasket();
-            PagesMainSite.Header
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonIconCloseFormCross();
-            PagesMainSite.Header
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonLogoRaffleHouse();
-            PagesMainSite.Home
+            PagesMainSite.HomeMainPg
                 .VerifyTitleOnHeroVideo();
-            PagesMainSite.Header
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonLogIn();
-            PagesMainSite.SignIn
+            PagesMainSite.SignInPg
                 .VerifyTitleSignIn();
-            PagesMainSite.Header
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonSignUp();
-            PagesMainSite.SignUpForAnAccount
+            PagesMainSite.SignUpForAnAccountPg
                 .VerifyTitleSignUpForAnAccount();
-            PagesMainSite.Header
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonBuyATicket();
-            PagesMainSite.TicketSelector
+            PagesMainSite.TicketSelectorMainPg
                 .VerifyTitleYourDreamHomeIsUpForGrabs();
+            PagesMainSite.HeaderMainSite
+                .ClickLogButtonoRaffleHouse()
+                .ClickButtonHamburger();
 
             return this;
         }

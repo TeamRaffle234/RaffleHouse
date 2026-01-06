@@ -4,12 +4,12 @@ using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 {
-    public partial class BurgerMenu
+    public partial class BurgerMenuMainSite
     {
         #region Header
 
         [AllureStep("Click button icon Cart in burger menu")]
-        public BurgerMenu ClickButtonIconCart()
+        public BurgerMenuMainSite ClickButtonIconCart()
         {
             Button.Click(ButtonIconCart);
             Console.WriteLine($"Cart icon button in burger menu");
@@ -18,7 +18,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         }
 
         [AllureStep("Click button icon close form cross in burger menu")]
-        public BurgerMenu ClickButtonIconCloseFormCross()
+        public BurgerMenuMainSite ClickButtonIconCloseFormCross()
         {
             Button.Click(ButtonIconCloseFormCross);
             Console.WriteLine($"Cross icon button in burger menu");
@@ -27,7 +27,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         }
 
         [AllureStep("Click button logo Raffle House")]
-        public BurgerMenu ClickButtonLogoRaffleHouse()
+        public BurgerMenuMainSite ClickButtonLogoRaffleHouse()
         {
             Button.Click(ButtonLogoRaffleHouse);
             Console.WriteLine($"Logo Raffle House icon button in burger menu");
@@ -40,7 +40,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         #region Basic items
 
         [AllureStep("Click button Login in burger menu")]
-        public BurgerMenu ClickButtonLogIn()
+        public BurgerMenuMainSite ClickButtonLogIn()
         {
             Button.Click(ButtonLogIn);
             Console.WriteLine($"Login button in burger menu");
@@ -49,7 +49,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         }
 
         [AllureStep("Click button Sign up in burger menu")]
-        public BurgerMenu ClickButtonSignUp()
+        public BurgerMenuMainSite ClickButtonSignUp()
         {
             Button.Click(ButtonSignUp);
             Console.WriteLine($"Sign up button in burger menu");
@@ -58,7 +58,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         }
 
         [AllureStep("Click button Buy a ticket in burger menu")]
-        public BurgerMenu ClickButtonBuyATicket()
+        public BurgerMenuMainSite ClickButtonBuyATicket()
         {
             Button.Click(ButtonBuyATicket);
             Console.WriteLine($"Buy a ticket button in burger menu");

@@ -4,13 +4,22 @@ using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.Header
 {
-    public partial class Header
+    public partial class HeaderMainSite
     {
         [AllureStep("Click button hamburger")]
-        public Header ClickButtonHamburger()
+        public HeaderMainSite ClickButtonHamburger()
         {
             Button.Click(ButtonHamburger);
             Console.WriteLine($"Humburger button");
+
+            return this;
+        }
+
+        [AllureStep("Click button logo Raffle House")]
+        public HeaderMainSite ClickLogButtonoRaffleHouse()
+        {
+            Button.Click(LogButtonoRaffleHouse);
+            Console.WriteLine($"Logo button Raffle House in header");
 
             return this;
         }

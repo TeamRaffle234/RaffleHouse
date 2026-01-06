@@ -5,30 +5,30 @@ using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
 {
-    public partial class SignIn
+    public partial class SignInPg
     {
-        UserBuyer userBuyer = UserBuyer.Generate();
+        UserBuyerObject userBuyerObject = UserBuyerObject.Generate();
 
         [AllureStep("Enter email user without phone")]
-        public SignIn EnterEmailUserWithoutPhoneFirst()
+        public SignInPg EnterEmailUserWithoutPhoneFirst()
         {
-            InputGeneral.InputFunctionWithClear(FieldInputEmail, userBuyer.UserAlreadyCreatedWihtoutPhone.Email);
+            InputGeneral.InputFunctionWithClear(FieldInputEmail, userBuyerObject.UserAlreadyCreatedWihtoutPhone.Email);
             Console.WriteLine($"Email field");
 
             return this;
         }
 
         [AllureStep("Enter password minimum length")]
-        public SignIn EnterPasswordMinimumLength()
+        public SignInPg EnterPasswordMinimumLength()
         {
-            InputGeneral.InputFunctionWithClear(FieldInputPassword, userBuyer.UserAlreadyCreatedWihtoutPhone.PasswordMinimumLength);
+            InputGeneral.InputFunctionWithClear(FieldInputPassword, userBuyerObject.UserAlreadyCreatedWihtoutPhone.PasswordMinimumLength);
             Console.WriteLine($"Password field");
 
             return this;
         }
 
         [AllureStep("Click icon eye for field input password")]
-        public SignIn ClickIconEyeForFieldInputPassword()
+        public SignInPg ClickIconEyeForFieldInputPassword()
         {
             Button.Click(IconEyeForFieldInputPassword);
             Console.WriteLine($"Icon button in the form eye for password field");
@@ -37,7 +37,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Click button Sign in via email")]
-        public SignIn ClickButtonSignInViaEmail()
+        public SignInPg ClickButtonSignInViaEmail()
         {
             Button.Click(ButtonSignInViaEmail);
             Console.WriteLine($"Sign in button");
@@ -46,7 +46,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Check box RememberMe")]
-        public SignIn CheckBoxRememberMe()
+        public SignInPg CheckBoxRememberMe()
         {
             Button.Click(CheckBoxContainerRememberMe);
             Console.WriteLine($"Check box RememberMe");
@@ -55,7 +55,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Click button Forgot password?")]
-        public SignIn ClickButtonForgotPassword()
+        public SignInPg ClickButtonForgotPassword()
         {
             Button.Click(ButtonForgotPassword);
             Console.WriteLine($"Button Forgot password?");

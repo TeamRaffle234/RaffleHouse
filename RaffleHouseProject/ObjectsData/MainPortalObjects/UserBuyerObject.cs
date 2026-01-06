@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.ObjectsData.MainPortalObjects
 {
-    public class UserBuyer
+    public class UserBuyerObject
     {
         public UserAlreadyCreatedWihtoutPhoneInfo UserAlreadyCreatedWihtoutPhone { get; set; }
 
-        public static UserBuyer Generate()
+        public static UserBuyerObject Generate()
         {
-            return new UserBuyer
+            return new UserBuyerObject
             {
                 UserAlreadyCreatedWihtoutPhone = CreateUserAlreadyCreatedWihtoutPhoneInfo(),
             };

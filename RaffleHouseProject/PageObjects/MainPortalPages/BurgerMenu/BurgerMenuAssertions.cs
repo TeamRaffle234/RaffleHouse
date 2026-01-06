@@ -5,10 +5,10 @@ using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 {
-    public partial class BurgerMenu
+    public partial class BurgerMenuMainSite
     {
         [AllureStep("Verify button icon close form cross")]
-        public BurgerMenu VerifyButtonIconCloseFormCross()
+        public BurgerMenuMainSite VerifyButtonIconCloseFormCross()
         {
 
             if (ButtonIconCloseFormCross == null)
@@ -29,7 +29,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         }
 
         [AllureStep("Verify button logo Raffle House")]
-        public BurgerMenu VerifyButtonLogoRaffleHouse()
+        public BurgerMenuMainSite VerifyButtonLogoRaffleHouse()
         {
 
             if (ButtonLogoRaffleHouse == null)
@@ -50,7 +50,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         }
 
         [AllureStep("Verify button icon Cart")]
-        public BurgerMenu VerifyButtonIconCart()
+        public BurgerMenuMainSite VerifyButtonIconCart()
         {
 
             if (ButtonLogoRaffleHouse == null)

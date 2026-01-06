@@ -2,21 +2,21 @@
 
 namespace RaffleHouseProject.ObjectsData.MainPortalObjects
 {
-    public class EarlyBird
+    public class EarlyBirdObject
     {
-        public SaintJohnsonPlInfo SaintJohnsonPl { get; set; }
+        public SectionHeroVideoInfo SectionHeroVideo { get; set; }
 
-        public static EarlyBird Generate()
+        public static EarlyBirdObject Generate()
         {
-            return new EarlyBird
+            return new EarlyBirdObject
             {
-                SaintJohnsonPl = CreateSaintJohnsonPlInfo(),
+                SectionHeroVideo = CreateSectionHeroVideoInfo(),
             };
         }
 
-        public class SaintJohnsonPlInfo
+        public class SectionHeroVideoInfo
         {
-            public string NumberAddress { get; set; }
+            public string Title { get; set; }
             public string Address { get; set; }
             public string City { get; set; }
             public string State { get; set; }
@@ -26,11 +26,11 @@ namespace RaffleHouseProject.ObjectsData.MainPortalObjects
             public string LlcName { get; set; }
         }
 
-        private static SaintJohnsonPlInfo CreateSaintJohnsonPlInfo()
+        private static SectionHeroVideoInfo CreateSectionHeroVideoInfo()
         {
-            return new SaintJohnsonPlInfo
+            return new SectionHeroVideoInfo
             {
-                NumberAddress = "9997",
+                Title = "Win this  Porsche worth £60,000",
                 Address = "Saint Johnson Place",
                 City = "Brooklyn",
                 State = "NY",

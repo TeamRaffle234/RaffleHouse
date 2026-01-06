@@ -3,7 +3,7 @@ using SeleniumExtras.PageObjects;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 {
-    public partial class BurgerMenu
+    public partial class BurgerMenuMainSite
     {
         #region Header
 

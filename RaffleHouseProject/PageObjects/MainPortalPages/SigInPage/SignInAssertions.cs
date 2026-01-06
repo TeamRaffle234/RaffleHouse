@@ -5,10 +5,10 @@ using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
 {
-    public partial class SignIn
+    public partial class SignInPg
     {
         [AllureStep("Verify Title Sign in page")]
-        public SignIn VerifyTitleSignIn()
+        public SignInPg VerifyTitleSignIn()
         {
             WaitUntil.StaticElementIsVisible(TitleSignIn);
             Assert.IsTrue(Title.IsVisible(TitleSignIn));
@@ -17,7 +17,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify Text Dont have an account?")]
-        public SignIn VerifyTextDontHaveAnAccount()
+        public SignInPg VerifyTextDontHaveAnAccount()
         {
             WaitUntil.StaticElementIsVisible(TextDontHaveAnAccount);
             Assert.IsTrue(Text.IsVisible(TextDontHaveAnAccount));
@@ -26,7 +26,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify Button name sign up here")]
-        public SignIn VerifyButtonNameSignUpHere()
+        public SignInPg VerifyButtonNameSignUpHere()
         {
             WaitUntil.WaitForElementToBeClickableAndVisible(ButtonNameSignUpHere);
             Assert.IsTrue(ButtonName.IsVisible(ButtonNameSignUpHere));
@@ -35,7 +35,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify Button name Google Sign in")]
-        public SignIn VerifyButtonNameGoogleSignIn()
+        public SignInPg VerifyButtonNameGoogleSignIn()
         {
             WaitUntil.WaitForElementToBeClickableAndVisible(ButtonGoogleNameSignIn);
             Assert.IsTrue(ButtonGoogleNameSignIn.Displayed);
@@ -47,7 +47,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify Button name Apple Sign in")]
-        public SignIn VerifyButtonNameAppleSignIn()
+        public SignInPg VerifyButtonNameAppleSignIn()
         {
             WaitUntil.WaitForElementToBeClickableAndVisible(ButtonAppleNameSignIn);
             Assert.IsTrue(ButtonAppleNameSignIn.Displayed);
@@ -59,7 +59,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify Title Dream Home in box")]
-        public SignIn VerifyTitleDreamHome()
+        public SignInPg VerifyTitleDreamHome()
         {
             WaitUntil.StaticElementIsVisible(TitleDreamHome);
             Assert.IsTrue(Text.IsVisible(TitleDreamHome));
@@ -68,7 +68,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify Text first for Dream Home in box")]
-        public SignIn VerifyTextFirstForDreamHomeBox()
+        public SignInPg VerifyTextFirstForDreamHomeBox()
         {
             WaitUntil.StaticElementIsVisible(TextFirstForDreamHomeBox);
             Assert.IsTrue(Text.IsVisible(TextFirstForDreamHomeBox));
@@ -77,7 +77,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify Text second for Dream Home in box")]
-        public SignIn VerifyTextSecondForDreamHomeBox()
+        public SignInPg VerifyTextSecondForDreamHomeBox()
         {
             WaitUntil.StaticElementIsVisible(TextSecondForDreamHomeBox);
             Assert.IsTrue(Text.IsVisible(TextSecondForDreamHomeBox));
@@ -86,7 +86,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
         }
 
         [AllureStep("Verify button name Forgot pssword?")]
-        public SignIn VerifyButtonForgotPassword()
+        public SignInPg VerifyButtonForgotPassword()
         {
             WaitUntil.WaitForElementToBeClickableAndVisible(ButtonForgotPassword);
             Assert.IsTrue(ButtonName.IsVisible(ButtonForgotPassword));

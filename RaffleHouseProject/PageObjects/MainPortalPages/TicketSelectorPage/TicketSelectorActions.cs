@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.TicketSelectorPage
 {
-    public partial class TicketSelector
+    public partial class TicketSelectorMainPg
     {
     }
 }

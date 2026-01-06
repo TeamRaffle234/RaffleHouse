@@ -82,16 +82,16 @@ namespace MainSiteTests.MainPortalTests
 
             PagesMainSite.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
-            PagesMainSite.Header
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
-            PagesMainSite.BurgerMenu
+            PagesMainSite.BurgerMenuMainSite
                 .ClickButtonLogIn();
 
             #endregion
 
             #region Test GUI
 
-            PagesMainSite.SignIn
+            PagesMainSite.SignInPg
                 .AuthorizeVerifyUserWithoutPhone();
 
             WaitUntil.WaitSomeInterval(100);
@@ -109,22 +109,23 @@ namespace MainSiteTests.MainPortalTests
         [AllureSubSuite("Verify_Burger_Menu_If_User_Unauthorized")]
         public void VerifyBurgerMenuIfUserUnauthorized()
         {
-            //Flow: User unauthorized > Verify header > Jump by all the items on the burger menu > Verify footer
+            //Flow: User unauthorized > Verify hamburger menu > Jump by all the items from the burger menu
+            //Early Bird item can be OR cannot be (need to comment OR recommend in method: TransitionsFromBurgerMenuToPages)
 
             #region Preconditions GUI
 
             PagesMainSite.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
-            PagesMainSite.Home
+            PagesMainSite.HomeMainPg
                 .VerifyTitleOnHeroVideo();
-            PagesMainSite.Header
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
 
             #endregion
 
             #region Test GUI
 
-            PagesMainSite.BurgerMenu
+            PagesMainSite.BurgerMenuMainSite
                 .TransitionsFromBurgerMenuToPages();
 
             WaitUntil.WaitSomeInterval(2000);

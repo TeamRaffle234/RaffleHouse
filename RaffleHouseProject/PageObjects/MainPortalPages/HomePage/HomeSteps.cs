@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
 {
-    public partial class Home
+    public partial class HomeMainPg
     {
     }
 }

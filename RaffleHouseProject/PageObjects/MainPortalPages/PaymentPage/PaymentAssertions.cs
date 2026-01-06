@@ -4,10 +4,10 @@ using RaffleHouseProject.GuiHelpers;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage
 {
-    public partial class Payment
+    public partial class PaymentPg
     {
         [AllureStep("Verify title There are no items in your basket")]
-        public Payment VerifyTitleThereAreNoItemsInYourBasket()
+        public PaymentPg VerifyTitleThereAreNoItemsInYourBasket()
         {
             WaitUntil.StaticElementIsVisible(TitleThereAreNoItemsInYourBasket);
             Assert.IsTrue(Title.IsVisible(TitleThereAreNoItemsInYourBasket));

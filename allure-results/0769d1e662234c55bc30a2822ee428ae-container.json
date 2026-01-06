@@ -1,0 +1,76 @@
+{
+  "uuid": "127b9639-4e80-49ce-97cc-654b14901fa1-tc-0-1000",
+  "name": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "children": [
+    "040ae708-4c6f-42f9-980f-82516b62bd83-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "DobeforeAllTheTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767715614667,
+      "stop": 1767715614667
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767715614667,
+      "stop": 1767715614667
+    }
+  ],
+  "afters": [
+    {
+      "name": "DoAfterEach",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767715614667,
+      "stop": 1767715614667
+    },
+    {
+      "name": "DoAfterAllTheTests",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1767715614667,
+      "stop": 1767715614667
+    }
+  ],
+  "links": [],
+  "start": 1767715576618,
+  "stop": 1767715614685
+}

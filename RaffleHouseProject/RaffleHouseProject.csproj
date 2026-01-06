@@ -27,4 +27,8 @@
     <Folder Include="PageObjects\CmsAdminPortalPages\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="ObjectsData\MainPortalObjects\UserBuyerObject.cs" />
+  </ItemGroup>
+
 </Project>

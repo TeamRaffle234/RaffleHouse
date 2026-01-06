@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.Header
 {
-    public partial class Header
+    public partial class HeaderMainSite
     {
     }
 }

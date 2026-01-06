@@ -1,11 +1,12 @@
 ﻿using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.ObjectsData.MainPortalObjects;
 
-namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
+namespace RaffleHouseProject.PageObjects.EarlyBirdPage
 {
-    public partial class HomeMainPg
+    public partial class EarlyBirdPg
     {
-        HomePageIfOnlyBasicDreamHomeRaffle homePageIfOnlyBasicDreamHomeRaffle = HomePageIfOnlyBasicDreamHomeRaffle.Generate();
+        EarlyBirdObject earlyBirdObject = EarlyBirdObject.Generate();
+
         public string GetTitleValueFromHeroVideoActualResult()
         {
             WaitUntil.StaticElementIsVisible(TitleFromHeroVideoActualResult);

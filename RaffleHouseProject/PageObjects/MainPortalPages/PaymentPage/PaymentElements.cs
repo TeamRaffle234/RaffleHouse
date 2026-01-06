@@ -3,7 +3,7 @@ using SeleniumExtras.PageObjects;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage
 {
-    public partial class Payment
+    public partial class PaymentPg
     {
         [FindsBy(How = How.XPath, Using = "//h2[normalize-space() = 'There are no items in your basket']")]
         public IWebElement TitleThereAreNoItemsInYourBasket;
