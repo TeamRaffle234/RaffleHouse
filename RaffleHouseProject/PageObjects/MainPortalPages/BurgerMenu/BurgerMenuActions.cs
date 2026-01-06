@@ -37,6 +37,8 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 
         #endregion
 
+        #region Basic items
+
         [AllureStep("Click button Login in burger menu")]
         public BurgerMenu ClickButtonLogIn()
         {
@@ -56,12 +58,14 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         }
 
         [AllureStep("Click button Buy a ticket in burger menu")]
-        public BurgerMenu ClickButtonSignUpButtonBuyATicket()
+        public BurgerMenu ClickButtonBuyATicket()
         {
             Button.Click(ButtonBuyATicket);
             Console.WriteLine($"Buy a ticket button in burger menu");
 
             return this;
         }
+
+        #endregion
     }
 }

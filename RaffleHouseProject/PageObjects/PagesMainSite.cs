@@ -7,6 +7,7 @@ using RaffleHouseProject.PageObjects.MainPortalPages.HomePage;
 using RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.SigInPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.SignUpForAnAccountPage;
+using RaffleHouseProject.PageObjects.MainPortalPages.TicketSelectorPage;
 using RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds;
 using SeleniumExtras.PageObjects;
 
@@ -40,6 +41,7 @@ namespace RaffleHouseProject.PageObjects
         public static SignUpForAnAccount SignUpForAnAccount => GetPage<SignUpForAnAccount>();
         public static Home Home => GetPage<Home>();
         public static Payment Payment => GetPage<Payment>();
+        public static TicketSelector TicketSelector => GetPage<TicketSelector>();
 
         #endregion
 

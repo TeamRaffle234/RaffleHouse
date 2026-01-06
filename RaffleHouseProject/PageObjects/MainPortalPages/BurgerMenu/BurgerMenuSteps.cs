@@ -30,6 +30,9 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
                 .VerifyTitleSignUpForAnAccount();
             PagesMainSite.Header
                 .ClickButtonHamburger();
+            ClickButtonBuyATicket();
+            PagesMainSite.TicketSelector
+                .VerifyTitleYourDreamHomeIsUpForGrabs();
 
             return this;
         }
