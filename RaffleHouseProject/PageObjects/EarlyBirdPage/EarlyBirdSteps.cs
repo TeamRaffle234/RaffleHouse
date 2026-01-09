@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.PageObjects.EarlyBirdPage
 {
-    public partial class EarlyBirdPg
+    public partial class EarlyBirdMainPg
     {
     }
 }

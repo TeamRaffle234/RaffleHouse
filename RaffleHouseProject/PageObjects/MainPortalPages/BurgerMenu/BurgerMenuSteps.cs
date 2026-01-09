@@ -8,7 +8,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         public BurgerMenuMainSite TransitionsFromBurgerMenuToPages()
         {
             ClickButtonIconCart();
-            PagesMainSite.PaymentPg
+            PagesMainSite.PaymentMainPg
                 .VerifyTitleThereAreNoItemsInYourBasket();
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
@@ -21,12 +21,12 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonLogIn();
-            PagesMainSite.SignInPg
+            PagesMainSite.SignInMainPg
                 .VerifyTitleSignIn();
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonSignUp();
-            PagesMainSite.SignUpForAnAccountPg
+            PagesMainSite.SignUpForAnAccountMainPg
                 .VerifyTitleSignUpForAnAccount();
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
@@ -37,10 +37,14 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
                 .ClickLogButtonoRaffleHouse()
                 .ClickButtonHamburger();
             ClickButtonEarlyBird();
-            PagesMainSite.EarlyBirdPg
+            PagesMainSite.EarlyBirdMainPg
                 .VerifyAreEqualTitleOnHeroVideo();
             PagesMainSite.HeaderMainSite
-                .ClickLogButtonoRaffleHouse()
+                .ClickButtonHamburger();
+            ClickButtonOurCharityPartners();
+            PagesMainSite.CharityMainPgA
+                .VerifyTitleDiscoverTheRaffleHouseCharityRaffle();
+            PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
 
             return this;

@@ -91,7 +91,7 @@ namespace MainSiteTests.MainPortalTests
 
             #region Test GUI
 
-            PagesMainSite.SignInPg
+            PagesMainSite.SignInMainPg
                 .AuthorizeVerifyUserWithoutPhone();
 
             WaitUntil.WaitSomeInterval(100);

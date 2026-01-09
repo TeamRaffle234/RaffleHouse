@@ -2,10 +2,10 @@
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
 {
-    public partial class SignInPg
+    public partial class SignInMainPg
     {
         [AllureStep("Authorize verify as a user without phone")]
-        public SignInPg AuthorizeVerifyUserWithoutPhone()
+        public SignInMainPg AuthorizeVerifyUserWithoutPhone()
         {
             VerifyTitleSignIn();
             VerifyTextDontHaveAnAccount();

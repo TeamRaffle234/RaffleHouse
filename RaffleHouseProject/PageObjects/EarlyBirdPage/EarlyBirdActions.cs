@@ -3,7 +3,7 @@ using RaffleHouseProject.ObjectsData.MainPortalObjects;
 
 namespace RaffleHouseProject.PageObjects.EarlyBirdPage
 {
-    public partial class EarlyBirdPg
+    public partial class EarlyBirdMainPg
     {
         EarlyBirdObject earlyBirdObject = EarlyBirdObject.Generate();
 

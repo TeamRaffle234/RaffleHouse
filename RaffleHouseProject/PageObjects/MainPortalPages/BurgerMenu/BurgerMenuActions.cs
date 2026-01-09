@@ -76,6 +76,15 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
             return this;
         }
 
+        [AllureStep("Click button Our charity partners in burger menu")]
+        public BurgerMenuMainSite ClickButtonOurCharityPartners()
+        {
+            Button.Click(ButtonOurCharityPartners);
+            Console.WriteLine($"Our charity partners button in burger menu");
+
+            return this;
+        }
+
         #endregion
     }
 }

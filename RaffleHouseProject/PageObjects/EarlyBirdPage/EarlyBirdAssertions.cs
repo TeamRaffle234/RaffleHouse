@@ -4,10 +4,10 @@ using System;
 
 namespace RaffleHouseProject.PageObjects.EarlyBirdPage
 {
-    public partial class EarlyBirdPg
+    public partial class EarlyBirdMainPg
     {
         [AllureStep("Verify are equal title on hero video")]
-        public EarlyBirdPg VerifyAreEqualTitleOnHeroVideo()
+        public EarlyBirdMainPg VerifyAreEqualTitleOnHeroVideo()
         {
             string getTitleValueFromHeroVideoActualResult = GetTitleValueFromHeroVideoActualResult();
             Assert.AreEqual(getTitleValueFromHeroVideoActualResult, earlyBirdObject.SectionHeroVideo.Title);

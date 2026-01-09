@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage
+namespace RaffleHouseProject.PageObjects.CharityPage
 {
-    public partial class PaymentMainPg
+    public partial class CharityMainPgA
     {
     }
 }

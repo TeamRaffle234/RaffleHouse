@@ -1,6 +1,8 @@
 ﻿using OpenQA.Selenium;
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.ObjectsData.MainPortalObjects;
+using RaffleHouseProject.PageObjects.CharityPage;
+using RaffleHouseProject.PageObjects.EarlyBirdPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu;
 using RaffleHouseProject.PageObjects.MainPortalPages.Header;
 using RaffleHouseProject.PageObjects.MainPortalPages.HomePage;
@@ -9,7 +11,6 @@ using RaffleHouseProject.PageObjects.MainPortalPages.SigInPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.SignUpForAnAccountPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.TicketSelectorPage;
 using RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds;
-using RaffleHouseProject.PageObjects.EarlyBirdPage;
 using SeleniumExtras.PageObjects;
 
 namespace RaffleHouseProject.PageObjects
@@ -39,12 +40,13 @@ namespace RaffleHouseProject.PageObjects
 
         public static HeaderMainSite HeaderMainSite => GetPage<HeaderMainSite>();
         public static BurgerMenuMainSite BurgerMenuMainSite => GetPage<BurgerMenuMainSite>();
-        public static SignInPg SignInPg => GetPage<SignInPg>();
-        public static SignUpForAnAccountPg SignUpForAnAccountPg => GetPage<SignUpForAnAccountPg>();
+        public static SignInMainPg SignInMainPg => GetPage<SignInMainPg>();
+        public static SignUpForAnAccountMainPg SignUpForAnAccountMainPg => GetPage<SignUpForAnAccountMainPg>();
         public static HomeMainPg HomeMainPg => GetPage<HomeMainPg>();
-        public static PaymentPg PaymentPg => GetPage<PaymentPg>();
+        public static PaymentMainPg PaymentMainPg => GetPage<PaymentMainPg>();
         public static TicketSelectorMainPg TicketSelectorMainPg => GetPage<TicketSelectorMainPg>();
-        public static EarlyBirdPg EarlyBirdPg => GetPage<EarlyBirdPg>();
+        public static EarlyBirdMainPg EarlyBirdMainPg => GetPage<EarlyBirdMainPg>();
+        public static CharityMainPgA CharityMainPgA => GetPage<CharityMainPgA>();
 
 
         #endregion

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.SignUpForAnAccountPage
 {
-    public partial class SignUpForAnAccountPg
+    public partial class SignUpForAnAccountMainPg
     {
     }
 }

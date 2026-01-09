@@ -4,10 +4,10 @@ using RaffleHouseProject.GuiHelpers;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.SignUpForAnAccountPage
 {
-    public partial class SignUpForAnAccountPg
+    public partial class SignUpForAnAccountMainPg
     {
         [AllureStep("Verify Title Sign-up for an account page")]
-        public SignUpForAnAccountPg VerifyTitleSignUpForAnAccount()
+        public SignUpForAnAccountMainPg VerifyTitleSignUpForAnAccount()
         {
             WaitUntil.StaticElementIsVisible(TitleSignUpForAnAccount);
             Assert.IsTrue(Title.IsVisible(TitleSignUpForAnAccount));

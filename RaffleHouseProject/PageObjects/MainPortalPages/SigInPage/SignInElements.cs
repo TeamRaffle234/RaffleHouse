@@ -3,7 +3,7 @@ using SeleniumExtras.PageObjects;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.SigInPage
 {
-    public partial class SignInPg
+    public partial class SignInMainPg
     {
         [FindsBy(How = How.XPath, Using = "//div[@class = 'loginGroupSignIn']//h1[text() = 'Sign in']")]
         public IWebElement TitleSignIn;

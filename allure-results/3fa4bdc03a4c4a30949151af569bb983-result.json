@@ -1,0 +1,412 @@
+{
+  "uuid": "d7008c4a-9554-46b3-a50c-3aa6af7a27c2-tr-0-1003",
+  "historyId": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "fullName": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "MainSiteTests.MainPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyBurgerMenuIfUserUnauthorized"
+    },
+    {
+      "name": "testClass",
+      "value": "LaunchMainSiteTests"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Verify_Burger_Menu_If_User_Unauthorized"
+    }
+  ],
+  "links": [],
+  "name": "VerifyBurgerMenuIfUserUnauthorized",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //button[@class = 'headerMenuButton']//img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.WaitForElementToBeClickableAndVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 65\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\Header\\HeaderActions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_u(Object[])\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.ClickButtonHamburger()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 36\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.TransitionsFromBurgerMenuToPages()\r\n   at MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalTests\\LaunchMainSiteTests.cs:line 128\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Displayed()\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.<>c__DisplayClass3_0.<WaitForElementToBeClickableAndVisible>b__0(IWebDriver driver) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 69\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyBurgerMenuIfUserUnauthorized",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //button[@class = 'headerMenuButton']//img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.WaitForElementToBeClickableAndVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 65\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\Header\\HeaderActions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_u(Object[])\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.ClickButtonHamburger()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 36\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.TransitionsFromBurgerMenuToPages()\r\n   at MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalTests\\LaunchMainSiteTests.cs:line 128\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Displayed()\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.<>c__DisplayClass3_0.<WaitForElementToBeClickableAndVisible>b__0(IWebDriver driver) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 69\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767977732372,
+          "stop": 1767977733304
+        },
+        {
+          "name": "Verify are equal title on hero video",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767977733305,
+          "stop": 1767977733357
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767977733358,
+          "stop": 1767977733998
+        },
+        {
+          "name": "Transitions from burger menu to pages",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 10 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.WaitForElementToBeClickableAndVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 65\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\Header\\HeaderActions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_u(Object[])\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.ClickButtonHamburger()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 36\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663415_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Click button icon Cart in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977733999,
+              "stop": 1767977734717
+            },
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977734717,
+              "stop": 1767977734785
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977734785,
+              "stop": 1767977735383
+            },
+            {
+              "name": "Click button icon close form cross in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977735383,
+              "stop": 1767977735967
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977735967,
+              "stop": 1767977736589
+            },
+            {
+              "name": "Click button logo Raffle House",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977736590,
+              "stop": 1767977737400
+            },
+            {
+              "name": "Verify are equal title on hero video",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977737400,
+              "stop": 1767977737894
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977737895,
+              "stop": 1767977738565
+            },
+            {
+              "name": "Click button Login in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977738565,
+              "stop": 1767977740388
+            },
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977740389,
+              "stop": 1767977740416
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977740416,
+              "stop": 1767977741112
+            },
+            {
+              "name": "Click button Sign up in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977741112,
+              "stop": 1767977742997
+            },
+            {
+              "name": "Verify Title Sign-up for an account page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977742998,
+              "stop": 1767977743029
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977743030,
+              "stop": 1767977743757
+            },
+            {
+              "name": "Click button Buy a ticket in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977743757,
+              "stop": 1767977744820
+            },
+            {
+              "name": "Verify Title Your Dream Home is up for grabs. A ticket today enters you into this month’s draw. Someone’s got to win! ticket selector page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977744821,
+              "stop": 1767977745306
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Timed out after 10 seconds",
+                "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at RaffleHouseProject.GuiHelpers.WaitUntil.WaitForElementToBeClickableAndVisible(IWebElement element, Int32 seconds) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\WaitUntil.cs:line 65\r\n   at RaffleHouseProject.GuiHelpers.Button.Click(IWebElement element) in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\GuiHelpers\\MethodsHelper.cs:line 28\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\Header\\HeaderActions.cs:line 12\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.Header.HeaderMainSite.__a$_around_ClickButtonHamburger_100663402_u(Object[])\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767977745306,
+              "stop": 1767977755939
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767977733999,
+          "stop": 1767977755939
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3574190ee0e2414a936ce2eb4c2ead70-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1767977723327,
+      "stop": 1767977758217
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1767977723327,
+  "stop": 1767977758220
+}
