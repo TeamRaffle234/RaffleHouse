@@ -31,6 +31,7 @@ namespace RaffleHouseProject.PageObjects
         #region Objects
 
         public static UserBuyerObject UserBuyerObject => GetPage<UserBuyerObject>();
+        public static EarlyBirdObject EarlyBirdObject => GetPage<EarlyBirdObject>();
 
         #endregion
 

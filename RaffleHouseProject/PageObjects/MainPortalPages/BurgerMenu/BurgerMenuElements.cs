@@ -29,7 +29,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar__wrapper active']//nav[@class = 'sidebar__menu']//a[text() = 'Buy a ticket']")]
         public IWebElement ButtonBuyATicket;
 
-        [FindsBy(How = How.XPath, Using = "")]
+        [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar__wrapper active']//nav[@class = 'sidebar__menu']//a[normalize-space() = 'Porsche Early Bird']")]
         public IWebElement ButtonEarlyBird;
 
         [FindsBy(How = How.XPath, Using = "")]

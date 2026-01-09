@@ -6,8 +6,8 @@ namespace RaffleHouseProject.PageObjects.EarlyBirdPage
 {
     public partial class EarlyBirdPg
     {
-        [AllureStep("Verify title on hero video")]
-        public EarlyBirdPg VerifyTitleOnHeroVideo()
+        [AllureStep("Verify are equal title on hero video")]
+        public EarlyBirdPg VerifyAreEqualTitleOnHeroVideo()
         {
             string getTitleValueFromHeroVideoActualResult = GetTitleValueFromHeroVideoActualResult();
             Assert.AreEqual(getTitleValueFromHeroVideoActualResult, earlyBirdObject.SectionHeroVideo.Title);

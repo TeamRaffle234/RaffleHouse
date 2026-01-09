@@ -1,12 +1,13 @@
 ﻿using NUnit.Allure.Attributes;
 using NUnit.Framework;
 using RaffleHouseProject.GuiHelpers;
+using RaffleHouseProject.PageObjects.MainPortalPages.SigInPage;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage
 {
     public partial class PaymentPg
     {
-        [AllureStep("Verify title There are no items in your basket")]
+        [AllureStep("Verify Title Sign in page")]
         public PaymentPg VerifyTitleThereAreNoItemsInYourBasket()
         {
             WaitUntil.StaticElementIsVisible(TitleThereAreNoItemsInYourBasket);

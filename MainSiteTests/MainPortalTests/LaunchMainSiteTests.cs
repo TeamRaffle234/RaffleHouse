@@ -76,7 +76,7 @@ namespace MainSiteTests.MainPortalTests
         [AllureSubSuite("Sign_In_Without_Phone_Success")]
         public void Sign_In_Without_Phone_Success()
         {
-            //Flow: Sign in via sidebar > Verify > full user name, user email > Verify full user name on sidebar, user email on My details page
+            //Flow: Sign in via burger menu if a user without phone number > Checkings > On profile - My details page > On burger menu
 
             #region Preconditions GUI
 
@@ -117,7 +117,7 @@ namespace MainSiteTests.MainPortalTests
             PagesMainSite.WeUseCookiesMdlWnd
                 .ClickButtonGotIt();
             PagesMainSite.HomeMainPg
-                .VerifyTitleOnHeroVideo();
+                .VerifyAreEqualTitleOnHeroVideo();
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
 

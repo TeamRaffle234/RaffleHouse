@@ -6,8 +6,8 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.HomePage
 {
     public partial class HomeMainPg
     {
-        [AllureStep("Verify title on hero video")]
-        public HomeMainPg VerifyTitleOnHeroVideo()
+        [AllureStep("Verify are equal title on hero video")]
+        public HomeMainPg VerifyAreEqualTitleOnHeroVideo()
         {
             string getTitleValueFromHeroVideoActualResult = GetTitleValueFromHeroVideoActualResult();
             Assert.AreEqual(getTitleValueFromHeroVideoActualResult, homePageIfOnlyBasicDreamHomeRaffle.SectionHeroVideo.Title);

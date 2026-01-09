@@ -30,7 +30,7 @@ namespace RaffleHouseProject.ObjectsData.MainPortalObjects
         {
             return new SectionHeroVideoInfo
             {
-                Title = "Win this  Porsche worth £60,000",
+                Title = "Win this Porsche worth £60,000",
                 Address = "Saint Johnson Place",
                 City = "Brooklyn",
                 State = "NY",

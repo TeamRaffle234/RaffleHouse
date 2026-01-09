@@ -17,7 +17,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
                 .ClickButtonHamburger();
             ClickButtonLogoRaffleHouse();
             PagesMainSite.HomeMainPg
-                .VerifyTitleOnHeroVideo();
+                .VerifyAreEqualTitleOnHeroVideo();
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonLogIn();
@@ -33,6 +33,12 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
             ClickButtonBuyATicket();
             PagesMainSite.TicketSelectorMainPg
                 .VerifyTitleYourDreamHomeIsUpForGrabs();
+            PagesMainSite.HeaderMainSite
+                .ClickLogButtonoRaffleHouse()
+                .ClickButtonHamburger();
+            ClickButtonEarlyBird();
+            PagesMainSite.EarlyBirdPg
+                .VerifyAreEqualTitleOnHeroVideo();
             PagesMainSite.HeaderMainSite
                 .ClickLogButtonoRaffleHouse()
                 .ClickButtonHamburger();

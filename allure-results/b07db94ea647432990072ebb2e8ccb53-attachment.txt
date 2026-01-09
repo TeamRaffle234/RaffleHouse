@@ -1,0 +1,45 @@
+[SUCCESS] Элемент найден и кликабелен
+Got it button
+[SUCCESS] Успешно Элемент видимый
+Title on hero video: Win this £3m Buckinghamshire Home
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Cart icon button in burger menu
+[SUCCESS] Успешно Элемент видимый
+Title name: There are no items in your basket
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Cross icon button in burger menu
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Logo Raffle House icon button in burger menu
+[SUCCESS] Успешно Элемент видимый
+Title on hero video: Win this £3m Buckinghamshire Home
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Login button in burger menu
+[SUCCESS] Успешно Элемент видимый
+Title name: Sign in
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Sign up button in burger menu
+[SUCCESS] Успешно Элемент видимый
+Title name: Sign-up for an account
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Buy a ticket button in burger menu
+[SUCCESS] Успешно Элемент видимый
+Title name: Your Dream Home is up for grabs. A ticket today enters you into this month’s draw. Someone’s got to win!
+[SUCCESS] Элемент найден и кликабелен
+Logo button Raffle House in header
+[SUCCESS] Элемент найден и кликабелен
+Humburger button
+[SUCCESS] Элемент найден и кликабелен
+Early Bird button in burger menu
+[SUCCESS] Успешно Элемент видимый

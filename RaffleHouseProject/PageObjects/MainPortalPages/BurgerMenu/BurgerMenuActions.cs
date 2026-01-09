@@ -1,5 +1,6 @@
 ﻿using NUnit.Allure.Steps;
 using RaffleHouseProject.GuiHelpers;
+using RaffleHouseProject.ObjectsData.MainPortalObjects;
 using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
@@ -62,6 +63,15 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         {
             Button.Click(ButtonBuyATicket);
             Console.WriteLine($"Buy a ticket button in burger menu");
+
+            return this;
+        }
+
+        [AllureStep("Click button Early Bird in burger menu")]
+        public BurgerMenuMainSite ClickButtonEarlyBird()
+        {
+            Button.Click(ButtonEarlyBird);
+            Console.WriteLine($"Early Bird button in burger menu");
 
             return this;
         }

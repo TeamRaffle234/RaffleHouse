@@ -1,0 +1,457 @@
+{
+  "uuid": "0d77c68e-ebf2-4548-a553-68bd66799def-tr-0-1003",
+  "historyId": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "fullName": "MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-7P40E62R"
+    },
+    {
+      "name": "package",
+      "value": "MainSiteTests.MainPortalTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyBurgerMenuIfUserUnauthorized"
+    },
+    {
+      "name": "testClass",
+      "value": "LaunchMainSiteTests"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim <maxqatesting390@gmail.com>"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "owner",
+      "value": "Maksim Perevalov"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Positive critical scenarios general portal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Verify_Burger_Menu_If_User_Unauthorized"
+    }
+  ],
+  "links": [],
+  "name": "VerifyBurgerMenuIfUserUnauthorized",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 30 but was 31. Strings differ at index 9.\r\n  Expected: \"Win this Porsche worth £60,000\"\r\n  But was:  \"Win this  Porsche worth £60,000\"\r\n  --------------------^\r\n",
+    "trace": "   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\EarlyBirdPage\\EarlyBirdAssertions.cs:line 13\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.VerifyAreEqualTitleOnHeroVideo()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 40\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.TransitionsFromBurgerMenuToPages()\r\n   at MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalTests\\LaunchMainSiteTests.cs:line 128\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyBurgerMenuIfUserUnauthorized",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 30 but was 31. Strings differ at index 9.\r\n  Expected: \"Win this Porsche worth £60,000\"\r\n  But was:  \"Win this  Porsche worth £60,000\"\r\n  --------------------^\r\n",
+        "trace": "   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\EarlyBirdPage\\EarlyBirdAssertions.cs:line 13\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.VerifyAreEqualTitleOnHeroVideo()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 40\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.TransitionsFromBurgerMenuToPages()\r\n   at MainSiteTests.MainPortalTests.LaunchMainSiteTests.VerifyBurgerMenuIfUserUnauthorized() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\MainSiteTests\\MainPortalTests\\LaunchMainSiteTests.cs:line 128\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Click button Got it",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767956324822,
+          "stop": 1767956325579
+        },
+        {
+          "name": "Verify are equal title on hero video",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767956325580,
+          "stop": 1767956325655
+        },
+        {
+          "name": "Click button hamburger",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767956325656,
+          "stop": 1767956326291
+        },
+        {
+          "name": "Transitions from burger menu to pages",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "  Expected string length 30 but was 31. Strings differ at index 9.\r\n  Expected: \"Win this Porsche worth £60,000\"\r\n  But was:  \"Win this  Porsche worth £60,000\"\r\n  --------------------^\r\n",
+            "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\EarlyBirdPage\\EarlyBirdAssertions.cs:line 13\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_w_0(Object[])\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.VerifyAreEqualTitleOnHeroVideo()\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\MainPortalPages\\BurgerMenu\\BurgerMenuSteps.cs:line 40\r\n   at RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu.BurgerMenuMainSite.__a$_around_TransitionsFromBurgerMenuToPages_100663414_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Click button icon Cart in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956326292,
+              "stop": 1767956327053
+            },
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956327053,
+              "stop": 1767956327126
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956327126,
+              "stop": 1767956327716
+            },
+            {
+              "name": "Click button icon close form cross in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956327716,
+              "stop": 1767956328295
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956328295,
+              "stop": 1767956328891
+            },
+            {
+              "name": "Click button logo Raffle House",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956328891,
+              "stop": 1767956329676
+            },
+            {
+              "name": "Verify are equal title on hero video",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956329676,
+              "stop": 1767956330175
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956330175,
+              "stop": 1767956330849
+            },
+            {
+              "name": "Click button Login in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956330850,
+              "stop": 1767956332996
+            },
+            {
+              "name": "Verify Title Sign in page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956332997,
+              "stop": 1767956333024
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956333025,
+              "stop": 1767956333685
+            },
+            {
+              "name": "Click button Sign up in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956333686,
+              "stop": 1767956335637
+            },
+            {
+              "name": "Verify Title Sign-up for an account page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956335638,
+              "stop": 1767956335664
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956335664,
+              "stop": 1767956336347
+            },
+            {
+              "name": "Click button Buy a ticket in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956336347,
+              "stop": 1767956337328
+            },
+            {
+              "name": "Verify Title Your Dream Home is up for grabs. A ticket today enters you into this month’s draw. Someone’s got to win! ticket selector page",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956337329,
+              "stop": 1767956338072
+            },
+            {
+              "name": "Click button logo Raffle House",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956338072,
+              "stop": 1767956339194
+            },
+            {
+              "name": "Click button hamburger",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956339194,
+              "stop": 1767956340120
+            },
+            {
+              "name": "Click button Early Bird in burger menu",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956340121,
+              "stop": 1767956341255
+            },
+            {
+              "name": "Verify are equal title on hero video",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "  Expected string length 30 but was 31. Strings differ at index 9.\r\n  Expected: \"Win this Porsche worth £60,000\"\r\n  But was:  \"Win this  Porsche worth £60,000\"\r\n  --------------------^\r\n",
+                "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_o() in C:\\Users\\Max\\Source\\Repos\\RaffleHouse\\RaffleHouseProject\\PageObjects\\EarlyBirdPage\\EarlyBirdAssertions.cs:line 13\r\n   at RaffleHouseProject.PageObjects.EarlyBirdPage.EarlyBirdPg.__a$_around_VerifyAreEqualTitleOnHeroVideo_100663417_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1767956341256,
+              "stop": 1767956341756
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1767956326292,
+          "stop": 1767956341756
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b07db94ea647432990072ebb2e8ccb53-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1767956303134,
+      "stop": 1767956344325
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1767956303133,
+  "stop": 1767956344327
+}
