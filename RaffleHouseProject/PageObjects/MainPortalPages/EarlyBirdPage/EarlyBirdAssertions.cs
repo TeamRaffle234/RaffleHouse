@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using System;
 
-namespace RaffleHouseProject.PageObjects.EarlyBirdPage
+namespace RaffleHouseProject.PageObjects.MainPortalPages.EarlyBirdPage
 {
     public partial class EarlyBirdMainPg
     {

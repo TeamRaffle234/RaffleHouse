@@ -6,7 +6,7 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage
 {
     public partial class PaymentMainPg
     {
-        [AllureStep("Verify Title Sign in page")]
+        [AllureStep("Verify title Payment page")]
         public PaymentMainPg VerifyTitleThereAreNoItemsInYourBasket()
         {
             WaitUntil.StaticElementIsVisible(TitleThereAreNoItemsInYourBasket);

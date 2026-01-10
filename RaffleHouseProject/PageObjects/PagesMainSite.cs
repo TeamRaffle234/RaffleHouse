@@ -1,14 +1,16 @@
 ﻿using OpenQA.Selenium;
 using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.ObjectsData.MainPortalObjects;
-using RaffleHouseProject.PageObjects.CharityPage;
-using RaffleHouseProject.PageObjects.EarlyBirdPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu;
+using RaffleHouseProject.PageObjects.MainPortalPages.CharityPage;
+using RaffleHouseProject.PageObjects.MainPortalPages.EarlyBirdPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.Header;
 using RaffleHouseProject.PageObjects.MainPortalPages.HomePage;
+using RaffleHouseProject.PageObjects.MainPortalPages.OurWinnersPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.PaymentPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.SigInPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.SignUpForAnAccountPage;
+using RaffleHouseProject.PageObjects.MainPortalPages.SubscriptionsPage;
 using RaffleHouseProject.PageObjects.MainPortalPages.TicketSelectorPage;
 using RaffleHouseProject.PageObjects.UsersPortalPages.WeUseCookiesMdlWnds;
 using SeleniumExtras.PageObjects;
@@ -46,7 +48,9 @@ namespace RaffleHouseProject.PageObjects
         public static PaymentMainPg PaymentMainPg => GetPage<PaymentMainPg>();
         public static TicketSelectorMainPg TicketSelectorMainPg => GetPage<TicketSelectorMainPg>();
         public static EarlyBirdMainPg EarlyBirdMainPg => GetPage<EarlyBirdMainPg>();
-        public static CharityMainPgA CharityMainPgA => GetPage<CharityMainPgA>();
+        public static CharityMainPg CharityMainPg => GetPage<CharityMainPg>();
+        public static OurWinnersMainsPg OurWinnersMainsPg => GetPage<OurWinnersMainsPg>();
+        public static SubscriptionsMainPg SubscriptionsMainPg => GetPage<SubscriptionsMainPg>();
 
 
         #endregion

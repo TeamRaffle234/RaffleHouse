@@ -2,12 +2,12 @@
 using NUnit.Framework;
 using RaffleHouseProject.GuiHelpers;
 
-namespace RaffleHouseProject.PageObjects.CharityPage
+namespace RaffleHouseProject.PageObjects.MainPortalPages.CharityPage
 {
-    public partial class CharityMainPgA
+    public partial class CharityMainPg
     {
         [AllureStep("Verify Title Discover the Raffle House Charit yRaffle")]
-        public CharityMainPgA VerifyTitleDiscoverTheRaffleHouseCharityRaffle()
+        public CharityMainPg VerifyTitleDiscoverTheRaffleHouseCharityRaffle()
         {
             WaitUntil.StaticElementIsVisible(TitleDiscoverTheRaffleHouseCharityRaffle);
             Assert.IsTrue(Title.IsVisible(TitleDiscoverTheRaffleHouseCharityRaffle));

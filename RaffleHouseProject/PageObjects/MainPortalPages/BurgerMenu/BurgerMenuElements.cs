@@ -35,10 +35,10 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar__wrapper active']//nav[@class = 'sidebar__menu']//a[normalize-space() = 'Our charity partners']")]
         public IWebElement ButtonOurCharityPartners;
 
-        [FindsBy(How = How.XPath, Using = "")]
+        [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar']//a[text() = 'Our winners']")]
         public IWebElement ButtonOurWinners;
 
-        [FindsBy(How = How.XPath, Using = "")]
+        [FindsBy(How = How.XPath, Using = "//div[@class = 'sidebar']//a[text() = 'Raffle House subscriptions']")]
         public IWebElement ButtonRaffleHouseSubscriptions;
 
         [FindsBy(How = How.XPath, Using = "")]

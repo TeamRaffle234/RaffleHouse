@@ -42,10 +42,21 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
             ClickButtonOurCharityPartners();
-            PagesMainSite.CharityMainPgA
+            PagesMainSite.CharityMainPg
                 .VerifyTitleDiscoverTheRaffleHouseCharityRaffle();
             PagesMainSite.HeaderMainSite
                 .ClickButtonHamburger();
+            PagesMainSite.BurgerMenuMainSite
+                .ClickButtonOurWinners();
+            PagesMainSite.OurWinnersMainsPg
+                .VerifyTitleMeetOurWinners();
+            PagesMainSite.HeaderMainSite
+                .ClickButtonHamburger();
+            PagesMainSite.BurgerMenuMainSite
+                .ClickButtonRaffleHouseSubscriptions();
+            PagesMainSite.SubscriptionsMainPg
+                .VerifyTitleNeverMissYourChanceToDreamBigAndDoGood();
+
 
             return this;
         }

@@ -1,7 +1,7 @@
 ﻿using RaffleHouseProject.GuiHelpers;
 using RaffleHouseProject.ObjectsData.MainPortalObjects;
 
-namespace RaffleHouseProject.PageObjects.EarlyBirdPage
+namespace RaffleHouseProject.PageObjects.MainPortalPages.EarlyBirdPage
 {
     public partial class EarlyBirdMainPg
     {

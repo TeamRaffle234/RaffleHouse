@@ -1,6 +1,5 @@
 ﻿using NUnit.Allure.Steps;
 using RaffleHouseProject.GuiHelpers;
-using RaffleHouseProject.ObjectsData.MainPortalObjects;
 using System;
 
 namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
@@ -40,20 +39,20 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
 
         #region Basic items
 
-        [AllureStep("Click button Login in burger menu")]
+        [AllureStep("Click button Login in via email burger menu")]
         public BurgerMenuMainSite ClickButtonLogIn()
         {
             Button.Click(ButtonLogIn);
-            Console.WriteLine($"Login button in burger menu");
+            Console.WriteLine($"Login via email button in burger menu");
 
             return this;
         }
 
-        [AllureStep("Click button Sign up in burger menu")]
+        [AllureStep("Click button Sign up via email in burger menu")]
         public BurgerMenuMainSite ClickButtonSignUp()
         {
             Button.Click(ButtonSignUp);
-            Console.WriteLine($"Sign up button in burger menu");
+            Console.WriteLine($"Sign up via email button in burger menu");
 
             return this;
         }
@@ -81,6 +80,24 @@ namespace RaffleHouseProject.PageObjects.MainPortalPages.BurgerMenu
         {
             Button.Click(ButtonOurCharityPartners);
             Console.WriteLine($"Our charity partners button in burger menu");
+
+            return this;
+        }
+
+        [AllureStep("Click button Our winners in burger menu")]
+        public BurgerMenuMainSite ClickButtonOurWinners()
+        {
+            Button.Click(ButtonOurWinners);
+            Console.WriteLine($"Our winners button in burger menu");
+
+            return this;
+        }
+
+        [AllureStep("Click button Raffle House subscriptions in burger menu")]
+        public BurgerMenuMainSite ClickButtonRaffleHouseSubscriptions()
+        {
+            Button.Click(ButtonRaffleHouseSubscriptions);
+            Console.WriteLine($"Raffle House subscriptions button in burger menu");
 
             return this;
         }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RaffleHouseProject.PageObjects.CharityPage
+namespace RaffleHouseProject.PageObjects.MainPortalPages.EarlyBirdPage
 {
-    public partial class CharityMainPgA
+    public partial class EarlyBirdMainPg
     {
     }
 }
